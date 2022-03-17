@@ -54,7 +54,7 @@ var Fx9pr = new Audio('music/Fx9pr.mp3');
 function hranie(){
     //zahrá notu podľa stlačenej klávesy
     addEventListener('keypress', function (e) {
-        if (e.key === '*') {                          //easterEgg, ak stlačíš * zahrá pesničku
+        if (e.key === '+') {                          //easterEgg, ak stlačíš * zahrá pesničku
           audio.currentTime = 0;                     
           audio.play();
         }
