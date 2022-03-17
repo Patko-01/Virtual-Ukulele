@@ -1,0 +1,485 @@
+body {
+    width: 100%;
+    background-color: #fcde67;
+    margin: 0;
+    padding: 0;
+}
+
+#nadpis{
+    width: 26%;
+    color: 030e12;
+    font-family: Brush Script MT;
+    font-size: 5em;
+    padding-left: 37%;
+}
+
+#prvaCast{
+    position: absolute;
+    background: #ad5511;
+    width:25%;
+    height: 53%;  
+    border-radius: 50%;
+    left: 10%;
+    top: 43%;
+}
+#stred{
+    position: absolute;
+    background: #1A4341;
+    width: 7%; 
+    height: 15%;
+    border-radius: 50%;
+    left: 32%;
+    top: 62%;
+    box-shadow: 0 0 0 7px #F3AC3C,
+                0 0 0 86px #ad5511;
+}
+#krk{
+    position: absolute;
+    background: #1A4341;
+    width: 36%;
+    height: 12%;
+    left: 42.3%;
+    top: 63.5%;
+}
+#koniecUke{
+    position: absolute;
+    background: #ad5511;
+    width: 14%;
+    height: 15%;
+    border-radius: 5vh;
+    right: 9.2%;
+    top: 62%;
+}
+#kobylka{
+    position: absolute;
+    background: #1A4341;
+    width: 1.4%;
+    height: 15%;
+    border-radius: 5vh;
+    left: 20.9%;
+    top: 62%;
+}
+#dvaOtvory{
+    position: absolute;
+    background: #fcde67;
+    width: 9.5%;
+    height: 2%;
+    border-radius: 5vh;
+    top: 72%;
+    right: 11%; 
+    -webkit-box-reflect: above 250%;
+}
+#strunaG{
+    position: absolute;
+    background: white;
+    width: 55.7%;
+    height: 0.5%;
+    border-radius: 5vh;
+    top: 65%;
+    right: 22.8%; 
+}
+#strunaC{
+    position: absolute;
+    background: white;
+    width: 55.7%;
+    height: 0.7%;
+    border-radius: 5vh;
+    top: 67.5%;
+    right: 22.8%;  
+}
+#strunaE{
+    position: absolute;
+    background: white;
+    width: 55.7%;
+    height: 0.6%;
+    border-radius: 5vh;
+    top: 70.5%;
+    right: 22.8%;  
+}
+#strunaA{
+    position: absolute;
+    background: white;
+    width: 55.7%;
+    height: 0.5%;
+    border-radius: 5vh;
+    top: 73%;
+    right: 22.8%;  
+}
+#strunaG:active{
+    animation-name: Movement;
+    animation-duration: 2s;
+}
+#strunaC:active{
+    animation-name: Movement;
+    animation-duration: 2s;
+}
+#strunaE:active{
+    animation-name: Movement;
+    animation-duration: 2s;
+}
+#strunaA:active{
+    animation-name: Movement;
+    animation-duration: 2s;
+}
+@keyframes Movement {
+  0% {
+    transform: translatey(0%);
+  }
+  20% {
+    transform: translatey(50%);
+  }
+  40% {
+    transform: translatey(-50%);
+  }
+  60% {
+    transform: translatey(25%);
+  }
+  80% {
+    transform: translatey(-25%);
+  }
+  100% {
+    transform: translatey(0%);
+  }
+}
+#drziakPrazcov{
+    position: absolute;
+    background: #F3AC3C;
+    width: 1%;
+    height: 12%;
+    border-radius: 0.7vh;
+    right: 22.3%;
+    top: 63.5%;
+}
+#palicka12{
+    position: absolute;
+    background: white;
+    width: 1%;
+    height: 2%;
+    border-radius: 0.4vh;
+    top: 72%;
+    right: 17.2%; 
+    -webkit-box-reflect: above 250%;
+}
+#palicka34{
+    position: absolute;
+    background: white;
+    width: 1%;
+    height: 2%;
+    border-radius: 0.4vh;
+    top: 72%;
+    right: 13.5%; 
+    -webkit-box-reflect: above 250%;
+}
+#strunaGpredl{                          
+    position: absolute;
+    background: white;
+    width: 5.3%;
+    height: 0.5%;
+    border-radius: 5vh;
+    top: 65.2%;
+    right: 17.6%; 
+    transform: rotate(2deg);
+}
+#strunaCpredl{                          
+    position: absolute;
+    background: white;
+    width: 9%;
+    height: 0.7%;
+    border-radius: 5vh;
+    top: 66.8%;
+    right: 14%; 
+    transform: rotate(-4deg);
+}
+#strunaEpredl{                          
+    position: absolute;
+    background: white;
+    width: 9%;
+    height: 0.6%;
+    border-radius: 5vh;
+    top: 71.5%;
+    right: 14%; 
+    transform: rotate(6deg);
+}
+#strunaApredl{                          
+    position: absolute;
+    background: white;
+    width: 5.2%;
+    height: 0.4%;
+    border-radius: 5vh;
+    top: 72.8%;
+    right: 18%; 
+    transform: rotate(-3deg);
+}
+#ladenie12{
+    position: absolute;
+    background: black;
+    width: 0.4%;
+    height: 2%;
+    border-radius: 0.3vh;
+    top: 77%;
+    right: 13.7%; 
+    -webkit-box-reflect: above 750%;
+}
+#ladenie34{
+    position: absolute;
+    background: black;
+    width: 0.4%;
+    height: 2%;
+    border-radius: 0.3vh;
+    top: 77%;
+    right: 17.45%; 
+    -webkit-box-reflect: above 750%;
+}
+#ladenie121{
+    position: absolute;
+    background: black;
+    width: 1.4%;
+    height: 2%;
+    border-radius: 0.7vh;
+    top: 78%;
+    right: 13.25%; 
+    -webkit-box-reflect: above 850%;
+}
+#ladenie342{
+    position: absolute;
+    background: black;
+    width: 1.4%;
+    height: 2%;
+    border-radius: 0.7vh;
+    top: 78%;
+    right: 17%; 
+    -webkit-box-reflect: above 850%;
+}
+#prazec1{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 72.5%;
+    top: 63.5%;
+}
+#prazec2{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 68.3%;
+    top: 63.5%;
+}
+#prazec3{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 64.1%;
+    top: 63.5%;
+}
+#prazec4{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 59.97%;
+    top: 63.5%;
+}
+#prazec5{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 56.23%;
+    top: 63.5%;
+}
+#prazec6{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 53%;
+    top: 63.5%;
+}
+#prazec7{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 50.2%;
+    top: 63.5%;
+}
+#prazec8{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 47.35%;
+    top: 63.5%;
+}
+#prazec9{
+    position: absolute;
+    background: grey;
+    width: 0.2%;
+    height: 12%;
+    border-radius: 2vh;
+    left: 44.6%;
+    top: 63.5%;
+}
+#gulka1{
+    position: absolute;
+    background: grey;
+    width: 1%; 
+    height: 2%;
+    border-radius: 50%;
+    left: 65.8%;
+    top: 68.3%;
+}
+#gulka2{
+    position: absolute;
+    background: grey;
+    width: 1%; 
+    height: 2%;
+    border-radius: 50%;
+    left: 57.7%;
+    top: 68.3%;
+}
+#home{
+    position: absolute;
+    left: 67%;
+    top: 14%;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: Brush Script MT;
+    font-size: 2em;
+}
+#about{
+    position: absolute;
+    left: 73%;
+    top: 14%;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: Brush Script MT;
+    font-size: 2em;
+}
+#gallery{
+    position: absolute;
+    left: 81%;
+    top: 14%;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: Brush Script MT;
+    font-size: 2em;
+}
+#home:hover{
+    transition: 0.2s;
+    color: whitesmoke;
+}
+#about:hover{
+    transition: 0.2s;
+    color: whitesmoke;
+}
+#gallery:hover{
+    transition: 0.2s;
+    color: whitesmoke;
+}
+h2{
+    position: absolute;
+    bottom: 60%;
+    left: 12%;
+    font-size: 1.5em;
+    color: black;
+    z-index: 1;
+    overflow: hidden;
+}
+h2:before{
+    content: '';
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #fcde67 5%, #fcde67 100%);
+    animation: nadpis 5.5s linear forwards;
+    animation-delay: 1.5s;
+}
+
+h3{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    font-size: 1.2em;
+    color: #1A4341;
+    z-index: 1;
+    overflow: hidden;
+}
+h3:before{
+    content: '';
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #fcde67 5%, #fcde67 100%);
+    animation: nadpis1 7s linear forwards;
+    animation-delay: 6s;
+}
+
+@keyframes nadpis 
+{
+    0%
+    {
+        left: -10%;
+    }
+    50% 
+    {
+        left: 110%;
+    }
+    75%
+    {
+        left: 110%;
+    }
+    100% 
+    {
+        left: -10%;
+    }
+}
+
+@keyframes nadpis1 
+{
+    0%
+    {
+        left: -10%;
+    }
+    50% 
+    {
+        left: 110%;
+    }
+    75%
+    {
+        left: 110%;
+    }
+    100% 
+    {
+        left: -10%;
+    }
+}
+
+#dekoracia{
+    position: absolute;
+    background: white;
+    width: 12%; 
+    height: 26%;
+    border-radius: 50%;
+    left: -8%;
+    top: -15%;
+    box-shadow: 0 0 0 10vh #f8951f,
+                0 0 0 20vh #da1c5c;
+}
+/* #da1c5c #f8951f #27aee4*/
