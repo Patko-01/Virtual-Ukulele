@@ -6,20 +6,42 @@ body {
 }
 
 #nadpis{
-    width: 26%;
     color: 030e12;
     font-family: Brush Script MT;
-    font-size: 5em;
+    font-size: 4em;
     padding-left: 37%;
 }
-
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+.menu{
+    text-decoration: none;
+    color: #000000;
+    font-family: Brush Script MT;
+    font-size: 2em;
+    margin: 15px;
+}
+.menu:hover{
+    transition: 0.2s;
+    color: whitesmoke;
+}
 #prvaCast{
     position: absolute;
     background: #ad5511;
     width:25%;
     height: 53%;  
     border-radius: 50%;
-    left: 10%;
+    left: 9%;
     top: 43%;
 }
 #stred{
@@ -30,8 +52,24 @@ body {
     border-radius: 50%;
     left: 32%;
     top: 62%;
-    box-shadow: 0 0 0 7px #F3AC3C,
-                0 0 0 86px #ad5511;
+}
+#okrajstredu{
+    position: absolute;
+    background:#F3AC3C;
+    width: 8%; 
+    height: 17%;
+    border-radius: 50%;
+    left: 31.5%;
+    top: 61%;
+}
+#koniecstredu{
+    position: absolute;
+    background:#ad5511;
+    width: 20%; 
+    height: 40%;
+    border-radius: 50%;
+    left: 25%;
+    top: 49%;
 }
 #krk{
     position: absolute;
@@ -348,48 +386,6 @@ body {
     border-radius: 50%;
     left: 57.7%;
     top: 68.3%;
-}
-#home{
-    position: absolute;
-    left: 67%;
-    top: 14%;
-    list-style-type: none;
-    text-decoration: none;
-    color: #000000;
-    font-family: Brush Script MT;
-    font-size: 2em;
-}
-#about{
-    position: absolute;
-    left: 73%;
-    top: 14%;
-    list-style-type: none;
-    text-decoration: none;
-    color: #000000;
-    font-family: Brush Script MT;
-    font-size: 2em;
-}
-#gallery{
-    position: absolute;
-    left: 81%;
-    top: 14%;
-    list-style-type: none;
-    text-decoration: none;
-    color: #000000;
-    font-family: Brush Script MT;
-    font-size: 2em;
-}
-#home:hover{
-    transition: 0.2s;
-    color: whitesmoke;
-}
-#about:hover{
-    transition: 0.2s;
-    color: whitesmoke;
-}
-#gallery:hover{
-    transition: 0.2s;
-    color: whitesmoke;
 }
 h2{
     position: absolute;
