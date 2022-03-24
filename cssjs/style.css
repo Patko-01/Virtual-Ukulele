@@ -8,8 +8,8 @@ body {
 #nadpis{
     color: 030e12;
     font-family: Brush Script MT;
-    font-size: 4em;
-    padding-left: 37%;
+    font-size: 4.5em;
+    padding-left: 15%;
 }
 .navbar{
     display: flex;
@@ -22,7 +22,6 @@ body {
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-right: 15%;
 }
 .menu{
     text-decoration: none;
@@ -465,17 +464,5 @@ h3:before{
     {
         left: -10%;
     }
-}
-
-#dekoracia{
-    position: absolute;
-    background: white;
-    width: 12%; 
-    height: 26%;
-    border-radius: 50%;
-    left: -8%;
-    top: -15%;
-    box-shadow: 0 0 0 10vh #f8951f,
-                0 0 0 20vh #da1c5c;
 }
 /* #da1c5c #f8951f #27aee4*/
