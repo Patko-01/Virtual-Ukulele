@@ -9,7 +9,6 @@ body {
     color: 030e12;
     font-family: Brush Script MT;
     font-size: 4.5em;
-    padding-left: 15%;
 }
 .navbar{
     display: flex;
@@ -28,7 +27,7 @@ body {
     color: #000000;
     font-family: Brush Script MT;
     font-size: 2em;
-    margin: 15px;
+    margin: 2.1vh;
 }
 .menu:hover{
     transition: 0.2s;
