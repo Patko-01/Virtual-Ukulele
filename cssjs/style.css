@@ -465,3 +465,35 @@ h3:before{
     }
 }
 /* #da1c5c #f8951f #27aee4*/
+#p0{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 74%;
+    top: 63.6%;
+}
+#p1{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 74%;
+    top: 66.2%;
+}
+#p2{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 74%;
+    top: 69.2%;
+}
+#p3{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 74%;
+    top: 71.8%;
+}

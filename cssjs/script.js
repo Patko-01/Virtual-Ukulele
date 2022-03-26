@@ -51,6 +51,34 @@ var A9pr = new Audio('music/A9pr.mp3');
 var Cx9pr = new Audio('music/Cx9pr.mp3');
 var Fx9pr = new Audio('music/Fx9pr.mp3');
 
+function highlight0() {
+  var el = document.getElementById('p0').style.background="#FA5F55";
+}
+function deHighlight0() {
+  var el = document.getElementById('p0').style.background="";
+}
+
+function highlight1() {
+  var el = document.getElementById('p1').style.background="#FA5F55";
+}
+function deHighlight1() {
+  var el = document.getElementById('p1').style.background="";
+}
+
+function highlight2() {
+  var el = document.getElementById('p2').style.background="#FA5F55";
+}
+function deHighlight2() {
+  var el = document.getElementById('p2').style.background="";
+}
+
+function highlight3() {
+  var el = document.getElementById('p3').style.background="#FA5F55";
+}
+function deHighlight3() {
+  var el = document.getElementById('p3').style.background="";
+}
+
 function hranie(){
     //zahrá notu podľa stlačenej klávesy
     addEventListener('keypress', function (e) {
@@ -114,18 +142,34 @@ function hranie(){
         if (e.key === 'z'){
           G.currentTime = 0;
           G.play();
+          highlight0();
+          setTimeout(function(){
+            deHighlight0();
+          }, 1000);
         }
         if (e.key === 'a'){
           C.currentTime = 0;
           C.play();
+          highlight1();
+          setTimeout(function(){
+            deHighlight1();
+          }, 1000);
         }
         if (e.key === 'q'){
           E.currentTime = 0;
           E.play();
+          highlight2();
+          setTimeout(function(){
+            deHighlight2();
+          }, 1000);
         }
         if (e.key === '1'){
           A.currentTime = 0;
           A.play();
+          highlight3();
+          setTimeout(function(){
+            deHighlight3();
+          }, 1000);
         }
         if (e.key === 'x'){
           Gx.currentTime = 0;
