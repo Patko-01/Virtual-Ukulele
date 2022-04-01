@@ -1,5 +1,5 @@
 //deklarujeme audio premenné
-var audio = new Audio('music/easterEgg.mp3');
+var audio = new Audio('music/easterEgg.mp3');       //ctrl+shift+L
 
 var G = new Audio('music/G.mp3');  //nulty pražec
 var C = new Audio('music/C.mp3');
@@ -52,28 +52,28 @@ var Cx9pr = new Audio('music/Cx9pr.mp3');
 var Fx9pr = new Audio('music/Fx9pr.mp3');
 
 function highlight0() {
-  var el = document.getElementById('p0').style.background="#FA5F55";
+  var el = document.getElementById('p0').style.background="#bccad6";
 }
 function deHighlight0() {
   var el = document.getElementById('p0').style.background="";
 }
 
 function highlight1() {
-  var el = document.getElementById('p1').style.background="#FA5F55";
+  var el = document.getElementById('p1').style.background="#bccad6";
 }
 function deHighlight1() {
   var el = document.getElementById('p1').style.background="";
 }
 
 function highlight2() {
-  var el = document.getElementById('p2').style.background="#FA5F55";
+  var el = document.getElementById('p2').style.background="#bccad6";
 }
 function deHighlight2() {
   var el = document.getElementById('p2').style.background="";
 }
 
 function highlight3() {
-  var el = document.getElementById('p3').style.background="#FA5F55";
+  var el = document.getElementById('p3').style.background="#bccad6";
 }
 function deHighlight3() {
   var el = document.getElementById('p3').style.background="";
