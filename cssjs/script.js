@@ -142,50 +142,50 @@ function hranie(){
         if (e.key === 'z'){
           G.currentTime = 0;
           G.play();
+        }
+        if (e.key === 'a'){
+          C.currentTime = 0;
+          C.play();
+        }
+        if (e.key === 'q'){
+          E.currentTime = 0;
+          E.play();
+        }
+        if (e.key === '1'){
+          A.currentTime = 0;
+          A.play();
+        }
+        if (e.key === 'x'){
+          Gx.currentTime = 0;
+          Gx.play();
           highlight0();
           setTimeout(function(){
             deHighlight0();
           }, 1000);
         }
-        if (e.key === 'a'){
-          C.currentTime = 0;
-          C.play();
+        if (e.key === 's'){
+          Cx.currentTime = 0;
+          Cx.play();
           highlight1();
           setTimeout(function(){
             deHighlight1();
           }, 1000);
         }
-        if (e.key === 'q'){
-          E.currentTime = 0;
-          E.play();
+        if (e.key === 'w'){
+          F.currentTime = 0;
+          F.play();
           highlight2();
           setTimeout(function(){
             deHighlight2();
           }, 1000);
         }
-        if (e.key === '1'){
-          A.currentTime = 0;
-          A.play();
+        if (e.key === '2'){
+          Ax.currentTime = 0;
+          Ax.play();
           highlight3();
           setTimeout(function(){
             deHighlight3();
           }, 1000);
-        }
-        if (e.key === 'x'){
-          Gx.currentTime = 0;
-          Gx.play();
-        }
-        if (e.key === 's'){
-          Cx.currentTime = 0;
-          Cx.play();
-        }
-        if (e.key === 'w'){
-          F.currentTime = 0;
-          F.play();
-        }
-        if (e.key === '2'){
-          Ax.currentTime = 0;
-          Ax.play();
         }
         if (e.key === 'c'){
           A2pr.currentTime = 0;
