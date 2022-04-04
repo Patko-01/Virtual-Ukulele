@@ -497,3 +497,25 @@ h3:before{
     left: 74%;
     top: 71.8%;
 }
+
+.wrapper{
+    position: absolute;
+    top: 42%;
+    left: 69.5%;
+    width: 10%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tlacitko{
+    background-color: #fefae6;
+    margin-left: 1%;
+    font-size: 0.85em;
+}
+#help{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 1.1em;
+}

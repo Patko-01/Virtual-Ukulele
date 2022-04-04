@@ -71,7 +71,6 @@ function highlight2() {
 function deHighlight2() {
   var el = document.getElementById('p2').style.background="";
 }
-
 function highlight3() {
   var el = document.getElementById('p3').style.background="#bccad6";
 }
@@ -185,7 +184,7 @@ function hranie(){
           highlight3();
           setTimeout(function(){
             deHighlight3();
-          }, 1000);
+          }, 1000); 
         }
         if (e.key === 'c'){
           A2pr.currentTime = 0;
@@ -318,4 +317,17 @@ function hranie(){
     });
 }
 hranie();
-console.log("ahoj");
+
+const form = document.forms[0];
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+  const {name} = this.elements;
+  if(name.value === "G"){
+    setTimeout(function(){
+    G.currentTime = 0;
+    G.play();
+    }, 1000); 
+    alert('The sound of the G, press "ok"');
+  }
+});
