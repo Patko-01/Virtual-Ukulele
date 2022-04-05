@@ -390,7 +390,7 @@ h2{
     bottom: 60%;
     left: 12%;
     font-size: 1.5em;
-    color: black;
+    color: #1A4341;
     z-index: 1;
     overflow: hidden;
 }
@@ -498,10 +498,109 @@ h3:before{
     top: 71.8%;
 }
 
+#p4{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 69.7%;
+    top: 63.6%;
+}
+#p5{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 69.7%;
+    top: 66.2%;
+}
+#p6{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 69.7%;
+    top: 69.2%;
+}
+#p7{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 69.7%;
+    top: 71.8%;
+}
+
+#p8{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 65.5%;
+    top: 63.6%;
+}
+#p9{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 65.5%;
+    top: 66.2%;
+}
+#p10{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 65.5%;
+    top: 69.2%;
+}
+#p11{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 65.5%;
+    top: 71.8%;
+}
+
+#p12{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 61.4%;
+    top: 63.6%;
+}
+#p13{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 61.4%;
+    top: 66.2%;
+}
+#p14{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 61.4%;
+    top: 69.2%;
+}
+#p15{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 61.4%;
+    top: 71.8%;
+}
+
 .wrapper{
     position: absolute;
-    top: 42%;
-    left: 69.5%;
+    top: 12%;
+    left: 80%;
     width: 10%;
     max-width: 90%;
     display: flex;
@@ -509,13 +608,21 @@ h3:before{
     align-items: center;
 }
 #tlacitko{
-    background-color: #fefae6;
     margin-left: 1%;
     font-size: 0.85em;
 }
 #help{
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 80%;
     font-size: 1.1em;
+}
+#napis{
+    position: absolute;
+    top: 57%;
+    left: 55%;
+    font-size: 1.2em;
+}
+#vypis{
+    color: #ff0080;
 }

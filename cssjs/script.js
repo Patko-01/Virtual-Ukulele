@@ -57,14 +57,12 @@ function highlight0() {
 function deHighlight0() {
   var el = document.getElementById('p0').style.background="";
 }
-
 function highlight1() {
   var el = document.getElementById('p1').style.background="#bccad6";
 }
 function deHighlight1() {
   var el = document.getElementById('p1').style.background="";
 }
-
 function highlight2() {
   var el = document.getElementById('p2').style.background="#bccad6";
 }
@@ -77,6 +75,78 @@ function highlight3() {
 function deHighlight3() {
   var el = document.getElementById('p3').style.background="";
 }
+function highlight4() {
+  var el = document.getElementById('p4').style.background="#bccad6";
+}
+function deHighlight4() {
+  var el = document.getElementById('p4').style.background="";
+}
+function highlight5() {
+  var el = document.getElementById('p5').style.background="#bccad6";
+}
+function deHighlight5() {
+  var el = document.getElementById('p5').style.background="";
+}
+function highlight6() {
+  var el = document.getElementById('p6').style.background="#bccad6";
+}
+function deHighlight6() {
+  var el = document.getElementById('p6').style.background="";
+}
+function highlight7() {
+  var el = document.getElementById('p7').style.background="#bccad6";
+}
+function deHighlight7() {
+  var el = document.getElementById('p7').style.background="";
+}
+function highlight8() {
+  var el = document.getElementById('p8').style.background="#bccad6";
+}
+function deHighlight8() {
+  var el = document.getElementById('p8').style.background="";
+}
+function highlight9() {
+  var el = document.getElementById('p9').style.background="#bccad6";
+}
+function deHighlight9() {
+  var el = document.getElementById('p9').style.background="";
+}
+function highlight10() {
+  var el = document.getElementById('p10').style.background="#bccad6";
+}
+function deHighlight10() {
+  var el = document.getElementById('p10').style.background="";
+}
+function highlight11() {
+  var el = document.getElementById('p11').style.background="#bccad6";
+}
+function deHighlight11() {
+  var el = document.getElementById('p11').style.background="";
+}
+function highlight12() {
+  var el = document.getElementById('p12').style.background="#bccad6";
+}
+function deHighlight12() {
+  var el = document.getElementById('p12').style.background="";
+}
+function highlight13() {
+  var el = document.getElementById('p13').style.background="#bccad6";
+}
+function deHighlight13() {
+  var el = document.getElementById('p13').style.background="";
+}
+function highlight14() {
+  var el = document.getElementById('p14').style.background="#bccad6";
+}
+function deHighlight14() {
+  var el = document.getElementById('p14').style.background="";
+}
+function highlight15() {
+  var el = document.getElementById('p15').style.background="#bccad6";
+}
+function deHighlight15() {
+  var el = document.getElementById('p15').style.background="";
+}
 
 function hranie(){
     //zahrá notu podľa stlačenej klávesy
@@ -86,6 +156,9 @@ function hranie(){
           audio.play();
         }
         if (e.key === 'Enter'){                       //zastavenie prehrávania audia
+
+          document.getElementById("vypis").innerHTML = "?";
+
           audio.pause();   
 
           G.pause();
@@ -141,23 +214,28 @@ function hranie(){
         if (e.key === 'z'){
           G.currentTime = 0;
           G.play();
+          document.getElementById("vypis").innerHTML = "G";
         }
         if (e.key === 'a'){
           C.currentTime = 0;
           C.play();
+          document.getElementById("vypis").innerHTML = "C";
         }
         if (e.key === 'q'){
           E.currentTime = 0;
           E.play();
+          document.getElementById("vypis").innerHTML = "E";
         }
         if (e.key === '1'){
           A.currentTime = 0;
           A.play();
+          document.getElementById("vypis").innerHTML = "A";
         }
         if (e.key === 'x'){
           Gx.currentTime = 0;
           Gx.play();
           highlight0();
+          document.getElementById("vypis").innerHTML = "G#";
           setTimeout(function(){
             deHighlight0();
           }, 1000);
@@ -166,6 +244,7 @@ function hranie(){
           Cx.currentTime = 0;
           Cx.play();
           highlight1();
+          document.getElementById("vypis").innerHTML = "C#";
           setTimeout(function(){
             deHighlight1();
           }, 1000);
@@ -174,6 +253,7 @@ function hranie(){
           F.currentTime = 0;
           F.play();
           highlight2();
+          document.getElementById("vypis").innerHTML = "F";
           setTimeout(function(){
             deHighlight2();
           }, 1000);
@@ -182,6 +262,7 @@ function hranie(){
           Ax.currentTime = 0;
           Ax.play();
           highlight3();
+          document.getElementById("vypis").innerHTML = "A#";
           setTimeout(function(){
             deHighlight3();
           }, 1000); 
@@ -189,50 +270,110 @@ function hranie(){
         if (e.key === 'c'){
           A2pr.currentTime = 0;
           A2pr.play();
+          highlight4();
+          document.getElementById("vypis").innerHTML = "A";
+          setTimeout(function(){
+            deHighlight4();
+          }, 1000); 
         }
         if (e.key === 'd'){
           D.currentTime = 0;
           D.play();
+          highlight5();
+          document.getElementById("vypis").innerHTML = "D";
+          setTimeout(function(){
+            deHighlight5();
+          }, 1000); 
         }
         if (e.key === 'e'){
           Fx.currentTime = 0;
           Fx.play();
+          highlight6();
+          document.getElementById("vypis").innerHTML = "F#";
+          setTimeout(function(){
+            deHighlight6();
+          }, 1000); 
         }
         if (e.key === '3'){
           B.currentTime = 0;
           B.play();
+          highlight7();
+          document.getElementById("vypis").innerHTML = "B";
+          setTimeout(function(){
+            deHighlight7();
+          }, 1000); 
         }
         if (e.key === 'v'){
           Ax3pr.currentTime = 0;
           Ax3pr.play();
+          highlight8();
+          document.getElementById("vypis").innerHTML = "A#";
+          setTimeout(function(){
+            deHighlight8();
+          }, 1000); 
         }
         if (e.key === 'f'){
           Dx.currentTime = 0;
           Dx.play();
+          highlight9();
+          document.getElementById("vypis").innerHTML = "D#";
+          setTimeout(function(){
+            deHighlight9();
+          }, 1000); 
         }
         if (e.key === 'r'){
           G3pr.currentTime = 0;
           G3pr.play();
+          highlight10();
+          document.getElementById("vypis").innerHTML = "G";
+          setTimeout(function(){
+            deHighlight10();
+          }, 1000); 
         }
         if (e.key === '4'){
           C3pr.currentTime = 0;
           C3pr.play();
+          highlight11();
+          document.getElementById("vypis").innerHTML = "C";
+          setTimeout(function(){
+            deHighlight11();
+          }, 1000); 
         }
         if (e.key === 'b'){
           B4pr.currentTime = 0;
           B4pr.play();
+          highlight12();
+          document.getElementById("vypis").innerHTML = "B";
+          setTimeout(function(){
+            deHighlight12();
+          }, 1000); 
         }
         if (e.key === 'g'){
           E4pr.currentTime = 0;
           E4pr.play();
+          highlight13();
+          document.getElementById("vypis").innerHTML = "E";
+          setTimeout(function(){
+            deHighlight13();
+          }, 1000); 
         }
         if (e.key === 't'){
           Gx4pr.currentTime = 0;
           Gx4pr.play();
+          highlight14();
+          document.getElementById("vypis").innerHTML = "G#";
+          setTimeout(function(){
+            deHighlight14();
+          }, 1000); 
         }
         if (e.key === '5'){
           Cx4pr.currentTime = 0;
           Cx4pr.play();
+          highlight15();
+          document.getElementById("vypis").innerHTML = "C#";
+          setTimeout(function(){
+            deHighlight15();
+          }, 1000); 
         }
         if (e.key === 'n'){
           C5pr.currentTime = 0;
@@ -324,10 +465,11 @@ form.addEventListener("submit", function(event) {
   event.preventDefault();
   const {name} = this.elements;
   if(name.value === "G"){
-    setTimeout(function(){
     G.currentTime = 0;
     G.play();
+    document.getElementById("vypis").innerHTML = "G";
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
     }, 1000); 
-    alert('The sound of the G, press "ok"');
   }
 });
