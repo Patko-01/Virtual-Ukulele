@@ -597,15 +597,177 @@ h3:before{
     top: 71.8%;
 }
 
-.wrapper{
+#p16{
     position: absolute;
-    top: 12%;
-    left: 80%;
-    width: 10%;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 57.4%;
+    top: 63.6%;
+}
+#p17{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 57.4%;
+    top: 66.2%;
+}
+#p18{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 57.4%;
+    top: 69.2%;
+}
+#p19{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 57.4%;
+    top: 71.8%;
+}
+
+#p20{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 53.9%;
+    top: 63.6%;
+}
+#p21{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 53.9%;
+    top: 66.2%;
+}
+#p22{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 53.9%;
+    top: 69.2%;
+}
+#p23{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 53.9%;
+    top: 71.8%;
+}
+
+#p24{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 51%;
+    top: 63.6%;
+}
+#p25{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 51%;
+    top: 66.2%;
+}
+#p26{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 51%;
+    top: 69.2%;
+}
+#p27{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 51%;
+    top: 71.8%;
+}
+
+#p28{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 48.2%;
+    top: 63.6%;
+}
+#p29{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 48.2%;
+    top: 66.2%;
+}
+#p30{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 48.2%;
+    top: 69.2%;
+}
+#p31{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 48.2%;
+    top: 71.8%;
+}
+
+#p32{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 45.3%;
+    top: 63.6%;
+}
+#p33{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 45.3%;
+    top: 66.2%;
+}
+#p34{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 45.3%;
+    top: 69.2%;
+}
+#p35{
+    position: absolute;
+    width:1.5%;
+    height: 3%;  
+    border-radius: 50%;
+    left: 45.3%;
+    top: 71.8%;
+}
+
+.wrapper{
     max-width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 10em;
 }
 #tlacitko{
     margin-left: 1%;

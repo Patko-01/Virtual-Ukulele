@@ -147,6 +147,126 @@ function highlight15() {
 function deHighlight15() {
   var el = document.getElementById('p15').style.background="";
 }
+function highlight16() {
+  var el = document.getElementById('p16').style.background="#bccad6";
+}
+function deHighlight16() {
+  var el = document.getElementById('p16').style.background="";
+}
+function highlight17() {
+  var el = document.getElementById('p17').style.background="#bccad6";
+}
+function deHighlight17() {
+  var el = document.getElementById('p17').style.background="";
+}
+function highlight18() {
+  var el = document.getElementById('p18').style.background="#bccad6";
+}
+function deHighlight18() {
+  var el = document.getElementById('p18').style.background="";
+}
+function highlight19() {
+  var el = document.getElementById('p19').style.background="#bccad6";
+}
+function deHighlight19() {
+  var el = document.getElementById('p19').style.background="";
+}
+function highlight20() {
+  var el = document.getElementById('p20').style.background="#bccad6";
+}
+function deHighlight20() {
+  var el = document.getElementById('p20').style.background="";
+}
+function highlight21() {
+  var el = document.getElementById('p21').style.background="#bccad6";
+}
+function deHighlight21() {
+  var el = document.getElementById('p21').style.background="";
+}
+function highlight22() {
+  var el = document.getElementById('p22').style.background="#bccad6";
+}
+function deHighlight22() {
+  var el = document.getElementById('p22').style.background="";
+}
+function highlight23() {
+  var el = document.getElementById('p23').style.background="#bccad6";
+}
+function deHighlight23() {
+  var el = document.getElementById('p23').style.background="";
+}
+function highlight24() {
+  var el = document.getElementById('p24').style.background="#bccad6";
+}
+function deHighlight24() {
+  var el = document.getElementById('p24').style.background="";
+}
+function highlight25() {
+  var el = document.getElementById('p25').style.background="#bccad6";
+}
+function deHighlight25() {
+  var el = document.getElementById('p25').style.background="";
+}
+function highlight26() {
+  var el = document.getElementById('p26').style.background="#bccad6";
+}
+function deHighlight26() {
+  var el = document.getElementById('p26').style.background="";
+}
+function highlight27() {
+  var el = document.getElementById('p27').style.background="#bccad6";
+}
+function deHighlight27() {
+  var el = document.getElementById('p27').style.background="";
+}
+function highlight28() {
+  var el = document.getElementById('p28').style.background="#bccad6";
+}
+function deHighlight28() {
+  var el = document.getElementById('p28').style.background="";
+}
+function highlight29() {
+  var el = document.getElementById('p29').style.background="#bccad6";
+}
+function deHighlight29() {
+  var el = document.getElementById('p29').style.background="";
+}
+function highlight30() {
+  var el = document.getElementById('p30').style.background="#bccad6";
+}
+function deHighlight30() {
+  var el = document.getElementById('p30').style.background="";
+}
+function highlight31() {
+  var el = document.getElementById('p31').style.background="#bccad6";
+}
+function deHighlight31() {
+  var el = document.getElementById('p31').style.background="";
+}
+function highlight32() {
+  var el = document.getElementById('p32').style.background="#bccad6";
+}
+function deHighlight32() {
+  var el = document.getElementById('p32').style.background="";
+}
+function highlight33() {
+  var el = document.getElementById('p33').style.background="#bccad6";
+}
+function deHighlight33() {
+  var el = document.getElementById('p33').style.background="";
+}
+function highlight34() {
+  var el = document.getElementById('p34').style.background="#bccad6";
+}
+function deHighlight34() {
+  var el = document.getElementById('p34').style.background="";
+}
+function highlight35() {
+  var el = document.getElementById('p35').style.background="#bccad6";
+}
+function deHighlight35() {
+  var el = document.getElementById('p35').style.background="";
+}
 
 function hranie(){
     //zahrá notu podľa stlačenej klávesy
@@ -378,82 +498,182 @@ function hranie(){
         if (e.key === 'n'){
           C5pr.currentTime = 0;
           C5pr.play();
+          highlight16();
+          document.getElementById("vypis").innerHTML = "C";
+          setTimeout(function(){
+            deHighlight16();
+          }, 1000); 
         }
         if (e.key === 'h'){
           F5pr.currentTime = 0;
           F5pr.play();
+          highlight17();
+          document.getElementById("vypis").innerHTML = "F";
+          setTimeout(function(){
+            deHighlight17();
+          }, 1000); 
         }
         if (e.key === 'y'){
           A5pr.currentTime = 0;
           A5pr.play();
+          highlight18();
+          document.getElementById("vypis").innerHTML = "A";
+          setTimeout(function(){
+            deHighlight18();
+          }, 1000); 
         }
         if (e.key === '6'){
           D5pr.currentTime = 0;
           D5pr.play();
+          highlight19();
+          document.getElementById("vypis").innerHTML = "D";
+          setTimeout(function(){
+            deHighlight19();
+          }, 1000); 
         }
         if (e.key === 'm'){
           Cx6pr.currentTime = 0;
           Cx6pr.play();
+          highlight20();
+          document.getElementById("vypis").innerHTML = "C#";
+          setTimeout(function(){
+            deHighlight20();
+          }, 1000); 
         }
         if (e.key === 'j'){
           Fx6pr.currentTime = 0;
           Fx6pr.play();
+          highlight21();
+          document.getElementById("vypis").innerHTML = "F#";
+          setTimeout(function(){
+            deHighlight21();
+          }, 1000); 
         }
         if (e.key === 'u'){
           Ax6pr.currentTime = 0;
           Ax6pr.play();
+          highlight22();
+          document.getElementById("vypis").innerHTML = "A#";
+          setTimeout(function(){
+            deHighlight22();
+          }, 1000); 
         }
         if (e.key === '7'){
           Dx6pr.currentTime = 0;
           Dx6pr.play();
+          highlight23();
+          document.getElementById("vypis").innerHTML = "D#";
+          setTimeout(function(){
+            deHighlight23();
+          }, 1000); 
         }
         if (e.key === ','){
           D7pr.currentTime = 0;
           D7pr.play();
+          highlight24();
+          document.getElementById("vypis").innerHTML = "D";
+          setTimeout(function(){
+            deHighlight24();
+          }, 1000); 
         }
         if (e.key === 'k'){
           G7pr.currentTime = 0;
           G7pr.play();
+          highlight25();
+          document.getElementById("vypis").innerHTML = "G";
+          setTimeout(function(){
+            deHighlight25();
+          }, 1000); 
         }
         if (e.key === 'i'){
           B7pr.currentTime = 0;
           B7pr.play();
+          highlight26();
+          document.getElementById("vypis").innerHTML = "B";
+          setTimeout(function(){
+            deHighlight26();
+          }, 1000); 
         }
         if (e.key === '8'){
           E7pr.currentTime = 0;
           E7pr.play();
+          highlight27();
+          document.getElementById("vypis").innerHTML = "E";
+          setTimeout(function(){
+            deHighlight27();
+          }, 1000); 
         }
         if (e.key === '.'){
           Dx8pr.currentTime = 0;
           Dx8pr.play();
+          highlight28();
+          document.getElementById("vypis").innerHTML = "D#";
+          setTimeout(function(){
+            deHighlight28();
+          }, 1000); 
         }
         if (e.key === 'l'){
           Gx8pr.currentTime = 0;
           Gx8pr.play();
+          highlight29();
+          document.getElementById("vypis").innerHTML = "G#";
+          setTimeout(function(){
+            deHighlight29();
+          }, 1000); 
         }
         if (e.key === 'o'){
           C8pr.currentTime = 0;
           C8pr.play();
+          highlight30();
+          document.getElementById("vypis").innerHTML = "C";
+          setTimeout(function(){
+            deHighlight30();
+          }, 1000); 
         }
         if (e.key === '9'){
           F8pr.currentTime = 0;
           F8pr.play();
+          highlight31();
+          document.getElementById("vypis").innerHTML = "F";
+          setTimeout(function(){
+            deHighlight31();
+          }, 1000); 
         }
         if (e.key === '/'){
           E9pr.currentTime = 0;
           E9pr.play();
+          highlight32();
+          document.getElementById("vypis").innerHTML = "E";
+          setTimeout(function(){
+            deHighlight32();
+          }, 1000); 
         }
         if (e.key === ';'){
           A9pr.currentTime = 0;
           A9pr.play();
+          highlight33();
+          document.getElementById("vypis").innerHTML = "A";
+          setTimeout(function(){
+            deHighlight33();
+          }, 1000); 
         }
         if (e.key === 'p'){
           Cx9pr.currentTime = 0;
           Cx9pr.play();
+          highlight34();
+          document.getElementById("vypis").innerHTML = "C#";
+          setTimeout(function(){
+            deHighlight34();
+          }, 1000); 
         }
         if (e.key === '0'){
           Fx9pr.currentTime = 0;
           Fx9pr.play();
+          highlight35();
+          document.getElementById("vypis").innerHTML = "F#";
+          setTimeout(function(){
+            deHighlight35();
+          }, 1000); 
         }
     });
 }
