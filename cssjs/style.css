@@ -113,6 +113,7 @@ body {
     border-radius: 5vh;
     top: 65%;
     right: 22.8%; 
+    animation: Movement 0.2s linear infinite;
 }
 #strunaC{
     position: absolute;
@@ -121,7 +122,8 @@ body {
     height: 0.7%;
     border-radius: 5vh;
     top: 67.5%;
-    right: 22.8%;  
+    right: 22.8%;
+    animation: Movement 0.2s linear infinite;  
 }
 #strunaE{
     position: absolute;
@@ -130,7 +132,8 @@ body {
     height: 0.6%;
     border-radius: 5vh;
     top: 70.5%;
-    right: 22.8%;  
+    right: 22.8%;
+    animation: Movement 0.2s linear infinite;  
 }
 #strunaA{
     position: absolute;
@@ -139,24 +142,10 @@ body {
     height: 0.5%;
     border-radius: 5vh;
     top: 73%;
-    right: 22.8%;  
+    right: 22.8%;
+    animation: Movement 0.2s linear infinite;  
 }
-#strunaG:active{
-    animation-name: Movement;
-    animation-duration: 2s;
-}
-#strunaC:active{
-    animation-name: Movement;
-    animation-duration: 2s;
-}
-#strunaE:active{
-    animation-name: Movement;
-    animation-duration: 2s;
-}
-#strunaA:active{
-    animation-name: Movement;
-    animation-duration: 2s;
-}
+
 @keyframes Movement {
   0% {
     transform: translatey(0%);

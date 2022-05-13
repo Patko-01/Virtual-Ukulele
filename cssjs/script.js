@@ -51,6 +51,11 @@ var A9pr = new Audio('music/A9pr.mp3');
 var Cx9pr = new Audio('music/Cx9pr.mp3');
 var Fx9pr = new Audio('music/Fx9pr.mp3');
 
+document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+
 function highlight0() {
   var el = document.getElementById('p0').style.background="#bccad6";
 }
@@ -331,31 +336,52 @@ function hranie(){
           Cx9pr.pause();
           Fx9pr.pause();
         }
+
         if (e.key === 'z'){
           G.currentTime = 0;
           G.play();
           document.getElementById("vypis").innerHTML = "G";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
         }
         if (e.key === 'a'){
           C.currentTime = 0;
           C.play();
           document.getElementById("vypis").innerHTML = "C";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
         }
         if (e.key === 'q'){
           E.currentTime = 0;
           E.play();
           document.getElementById("vypis").innerHTML = "E";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
         }
         if (e.key === '1'){
           A.currentTime = 0;
           A.play();
           document.getElementById("vypis").innerHTML = "A";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
         }
         if (e.key === 'x'){
           Gx.currentTime = 0;
           Gx.play();
           highlight0();
           document.getElementById("vypis").innerHTML = "G#";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight0();
           }, 1000);
@@ -365,6 +391,10 @@ function hranie(){
           Cx.play();
           highlight1();
           document.getElementById("vypis").innerHTML = "C#";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight1();
           }, 1000);
@@ -374,6 +404,10 @@ function hranie(){
           F.play();
           highlight2();
           document.getElementById("vypis").innerHTML = "F";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight2();
           }, 1000);
@@ -383,6 +417,10 @@ function hranie(){
           Ax.play();
           highlight3();
           document.getElementById("vypis").innerHTML = "A#";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight3();
           }, 1000); 
@@ -392,6 +430,10 @@ function hranie(){
           A2pr.play();
           highlight4();
           document.getElementById("vypis").innerHTML = "A";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight4();
           }, 1000); 
@@ -401,6 +443,10 @@ function hranie(){
           D.play();
           highlight5();
           document.getElementById("vypis").innerHTML = "D";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight5();
           }, 1000); 
@@ -410,6 +456,10 @@ function hranie(){
           Fx.play();
           highlight6();
           document.getElementById("vypis").innerHTML = "F#";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight6();
           }, 1000); 
@@ -419,6 +469,10 @@ function hranie(){
           B.play();
           highlight7();
           document.getElementById("vypis").innerHTML = "B";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight7();
           }, 1000); 
@@ -428,6 +482,10 @@ function hranie(){
           Ax3pr.play();
           highlight8();
           document.getElementById("vypis").innerHTML = "A#";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight8();
           }, 1000); 
@@ -437,6 +495,10 @@ function hranie(){
           Dx.play();
           highlight9();
           document.getElementById("vypis").innerHTML = "D#";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight9();
           }, 1000); 
@@ -446,6 +508,10 @@ function hranie(){
           G3pr.play();
           highlight10();
           document.getElementById("vypis").innerHTML = "G";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight10();
           }, 1000); 
@@ -455,6 +521,10 @@ function hranie(){
           C3pr.play();
           highlight11();
           document.getElementById("vypis").innerHTML = "C";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight11();
           }, 1000); 
@@ -464,6 +534,10 @@ function hranie(){
           B4pr.play();
           highlight12();
           document.getElementById("vypis").innerHTML = "B";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight12();
           }, 1000); 
@@ -473,6 +547,10 @@ function hranie(){
           E4pr.play();
           highlight13();
           document.getElementById("vypis").innerHTML = "E";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight13();
           }, 1000); 
@@ -482,6 +560,10 @@ function hranie(){
           Gx4pr.play();
           highlight14();
           document.getElementById("vypis").innerHTML = "G#";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight14();
           }, 1000); 
@@ -491,6 +573,10 @@ function hranie(){
           Cx4pr.play();
           highlight15();
           document.getElementById("vypis").innerHTML = "C#";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight15();
           }, 1000); 
@@ -500,6 +586,10 @@ function hranie(){
           C5pr.play();
           highlight16();
           document.getElementById("vypis").innerHTML = "C";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight16();
           }, 1000); 
@@ -509,6 +599,10 @@ function hranie(){
           F5pr.play();
           highlight17();
           document.getElementById("vypis").innerHTML = "F";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight17();
           }, 1000); 
@@ -518,6 +612,10 @@ function hranie(){
           A5pr.play();
           highlight18();
           document.getElementById("vypis").innerHTML = "A";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight18();
           }, 1000); 
@@ -527,6 +625,10 @@ function hranie(){
           D5pr.play();
           highlight19();
           document.getElementById("vypis").innerHTML = "D";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight19();
           }, 1000); 
@@ -536,6 +638,10 @@ function hranie(){
           Cx6pr.play();
           highlight20();
           document.getElementById("vypis").innerHTML = "C#";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight20();
           }, 1000); 
@@ -545,6 +651,10 @@ function hranie(){
           Fx6pr.play();
           highlight21();
           document.getElementById("vypis").innerHTML = "F#";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight21();
           }, 1000); 
@@ -554,6 +664,10 @@ function hranie(){
           Ax6pr.play();
           highlight22();
           document.getElementById("vypis").innerHTML = "A#";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight22();
           }, 1000); 
@@ -563,6 +677,10 @@ function hranie(){
           Dx6pr.play();
           highlight23();
           document.getElementById("vypis").innerHTML = "D#";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight23();
           }, 1000); 
@@ -572,6 +690,10 @@ function hranie(){
           D7pr.play();
           highlight24();
           document.getElementById("vypis").innerHTML = "D";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight24();
           }, 1000); 
@@ -581,6 +703,10 @@ function hranie(){
           G7pr.play();
           highlight25();
           document.getElementById("vypis").innerHTML = "G";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight25();
           }, 1000); 
@@ -590,6 +716,10 @@ function hranie(){
           B7pr.play();
           highlight26();
           document.getElementById("vypis").innerHTML = "B";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight26();
           }, 1000); 
@@ -599,6 +729,10 @@ function hranie(){
           E7pr.play();
           highlight27();
           document.getElementById("vypis").innerHTML = "E";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight27();
           }, 1000); 
@@ -608,6 +742,10 @@ function hranie(){
           Dx8pr.play();
           highlight28();
           document.getElementById("vypis").innerHTML = "D#";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight28();
           }, 1000); 
@@ -617,6 +755,10 @@ function hranie(){
           Gx8pr.play();
           highlight29();
           document.getElementById("vypis").innerHTML = "G#";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight29();
           }, 1000); 
@@ -626,6 +768,10 @@ function hranie(){
           C8pr.play();
           highlight30();
           document.getElementById("vypis").innerHTML = "C";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight30();
           }, 1000); 
@@ -635,6 +781,10 @@ function hranie(){
           F8pr.play();
           highlight31();
           document.getElementById("vypis").innerHTML = "F";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight31();
           }, 1000); 
@@ -644,6 +794,10 @@ function hranie(){
           E9pr.play();
           highlight32();
           document.getElementById("vypis").innerHTML = "E";
+          document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight32();
           }, 1000); 
@@ -653,6 +807,10 @@ function hranie(){
           A9pr.play();
           highlight33();
           document.getElementById("vypis").innerHTML = "A";
+          document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight33();
           }, 1000); 
@@ -662,6 +820,10 @@ function hranie(){
           Cx9pr.play();
           highlight34();
           document.getElementById("vypis").innerHTML = "C#";
+          document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight34();
           }, 1000); 
@@ -671,6 +833,10 @@ function hranie(){
           Fx9pr.play();
           highlight35();
           document.getElementById("vypis").innerHTML = "F#";
+          document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
           setTimeout(function(){
             deHighlight35();
           }, 1000); 
@@ -688,8 +854,111 @@ form.addEventListener("submit", function(event) {
     G.currentTime = 0;
     G.play();
     document.getElementById("vypis").innerHTML = "G";
+    document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
     setTimeout(function(){
       document.getElementById("vypis").innerHTML = "?";
+    }, 1000); 
+  }
+
+  if(name.value === "C"){
+    C.currentTime = 0;
+    C.play();
+    document.getElementById("vypis").innerHTML = "C";
+    document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+    }, 1000); 
+  }
+
+  if(name.value === "E"){
+    E.currentTime = 0;
+    E.play();
+    document.getElementById("vypis").innerHTML = "E";
+    document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+    }, 1000); 
+  }
+
+  if(name.value === "A"){
+    A.currentTime = 0;
+    A.play();
+    document.getElementById("vypis").innerHTML = "A";
+    document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+    }, 1000); 
+  }
+
+  if(name.value === "G#"){
+    Gx.currentTime = 0;
+    Gx.play();
+    highlight0();
+    document.getElementById("vypis").innerHTML = "G#";
+    document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+      deHighlight0();
+    }, 1000); 
+  }
+
+  if(name.value === "C#"){
+    Cx.currentTime = 0;
+    Cx.play();
+    highlight1();
+    document.getElementById("vypis").innerHTML = "C#";
+    document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+      deHighlight1();
+    }, 1000); 
+  }
+
+  if(name.value === "F"){
+    F.currentTime = 0;
+    F.play();
+    highlight2();
+    document.getElementById("vypis").innerHTML = "F";
+    document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+      deHighlight2();
+    }, 1000); 
+  }
+
+  if(name.value === "A#"){
+    Ax.currentTime = 0;
+    Ax.play();
+    highlight3();
+    document.getElementById("vypis").innerHTML = "A#";
+    document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
+                  setTimeout(function() {
+                      document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
+                  }, 200);
+    setTimeout(function(){
+      document.getElementById("vypis").innerHTML = "?";
+      deHighlight3();
     }, 1000); 
   }
 });
