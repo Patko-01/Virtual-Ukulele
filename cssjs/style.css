@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background-color: #fcde67;
+    background-color: #fff6d4;
     margin: 0;
     padding: 0;
 }
@@ -97,7 +97,7 @@ body {
 }
 #dvaOtvory{
     position: absolute;
-    background: #fcde67;
+    background: #fff6d4;
     width: 9.5%;
     height: 2%;
     border-radius: 5vh;
@@ -389,7 +389,7 @@ h2:before{
     left: -10%;
     width: 120%;
     height: 100%;
-    background: linear-gradient(90deg, transparent 0%, #fcde67 5%, #fcde67 100%);
+    background: linear-gradient(90deg, transparent 0%, #fff6d4 5%, #fff6d4 100%);
     animation: nadpis 5.5s linear forwards;
     animation-delay: 1.5s;
 }
@@ -409,7 +409,7 @@ h3:before{
     left: -10%;
     width: 120%;
     height: 100%;
-    background: linear-gradient(90deg, transparent 0%, #fcde67 5%, #fcde67 100%);
+    background: linear-gradient(90deg, transparent 0%, #fff6d4 5%, #fff6d4 100%);
     animation: nadpis1 7s linear forwards;
     animation-delay: 6s;
 }
