@@ -1,32 +1,26 @@
-    <!DOCTYPE html>
-    <html lang="sk">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Virtual Ukulele</title>
-        <link rel="stylesheet" href="cssjs/style.css">
-        
-    </head>
-    <body>
-        <div class="navbar">
-            <h1 id="nadpis">Virtual Ukulele</h1>
-            <ul class="nav">
-                <li><a class="menu" href="index.html">Home</a></li>
-                <li><a class="menu" href="html/onas.html">About us</a></li>
-                <li><a class="menu" href="html/tutorials.html">Tutorials</a></li>
-                <li><a class="menu" href="html/play.html">Playlist</a></li>
-                <form class="wrapper">
-                    <input type="text" id="name" name="name" placeholder="Note">
-                    <button id="tlacitko" type="submit">Submit</button>
-                </form>
-            </ul>
-        </div>
-
-        <h2>Try to press +</h2>
-        <h3>Press Enter for mute</h3>
-
-            <div id="prvaCast"></div>
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Ukulele</title>
+    <link rel="stylesheet" href="../cssjs/style.css">
+    
+</head>
+<body>
+    <div id="dekoracia"></div>
+    
+    <div class="navbar">
+        <h1 id="nadpis">Virtual Ukulele</h1>
+        <ul class="nav">
+            <li><a class="menu" href="../index.html">Home</a></li>
+            <li><a class="menu" href="onas.html">About us</a></li>
+            <li><a class="menu" href="tutorials.html">Tutorials</a></li>
+            <li><a class="menu" href="play.html">Playlist</a></li>
+        </ul>
+    </div>
+    <div id="prvaCast"></div>
             <div id="koniecstredu"></div>
             <div id="okrajstredu"></div>
             <div id="stred"></div>
@@ -109,8 +103,10 @@
             <div id="p33"></div>
             <div id="p34"></div>
             <div id="p35"></div>
-
-            <h1 id="napis">Name of the note: <span id="vypis">?</span></h1>
-        <script src="cssjs/script.js"></script>
-    </body>
-    </html>
+    <div class="d-grid gap-2">
+        <button onclick="Start_playing();SevenNationArmy();">The White Stripes - Seven Nation Army</button>
+        <button onclick="Stop_playing()">Stop</button>
+    </div>
+    <script src="../cssjs/script_play.js"></script>
+</body>
+</html>

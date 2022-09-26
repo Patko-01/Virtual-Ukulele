@@ -1,55 +1,54 @@
-//deklarujeme audio premenné
-var audio = new Audio('music/easterEgg.mp3');       //ctrl+shift+L
+var audio = new Audio('../music/easterEgg.mp3');       
 
-var G = new Audio('music/G.mp3');  //nulty pražec
-var C = new Audio('music/C.mp3');
-var E = new Audio('music/E.mp3');
-var A = new Audio('music/A.mp3');
+var G = new Audio('../music/G.mp3');  //nulty pražec
+var C = new Audio('../music/C.mp3');
+var E = new Audio('../music/E.mp3');
+var A = new Audio('../music/A.mp3');
 
-var Gx = new Audio('music/Gx.mp3');  //prvý pražec
-var Cx = new Audio('music/Cx.mp3');
-var F = new Audio('music/F.mp3');
-var Ax = new Audio('music/Ax.mp3');
+var Gx = new Audio('../music/Gx.mp3');  //prvý pražec
+var Cx = new Audio('../music/Cx.mp3');
+var F = new Audio('../music/F.mp3');
+var Ax = new Audio('../music/Ax.mp3');
 
-var A2pr = new Audio('music/A2pr.mp3');  //druhý pražec
-var D = new Audio('music/D.mp3');
-var Fx = new Audio('music/Fx.mp3');
-var B = new Audio('music/B.mp3');
+var A2pr = new Audio('../music/A2pr.mp3');  //druhý pražec
+var D = new Audio('../music/D.mp3');
+var Fx = new Audio('../music/Fx.mp3');
+var B = new Audio('../music/B.mp3');
 
-var Ax3pr = new Audio('music/Ax3pr.mp3');  //tretí pražec
-var Dx = new Audio('music/Dx.mp3');
-var G3pr = new Audio('music/G3pr.mp3');
-var C3pr = new Audio('music/C3pr.mp3');
+var Ax3pr = new Audio('../music/Ax3pr.mp3');  //tretí pražec
+var Dx = new Audio('../music/Dx.mp3');
+var G3pr = new Audio('../music/G3pr.mp3');
+var C3pr = new Audio('../music/C3pr.mp3');
 
-var B4pr = new Audio('music/B4pr.mp3');  //štvrtý pražec
-var E4pr = new Audio('music/E4pr.mp3');
-var Gx4pr = new Audio('music/Gx4pr.mp3');
-var Cx4pr = new Audio('music/Cx4pr.mp3');
+var B4pr = new Audio('../music/B4pr.mp3');  //štvrtý pražec
+var E4pr = new Audio('../music/E4pr.mp3');
+var Gx4pr = new Audio('../music/Gx4pr.mp3');
+var Cx4pr = new Audio('../music/Cx4pr.mp3');
 
-var C5pr = new Audio('music/C5pr.mp3');  //piaty pražec
-var F5pr = new Audio('music/F5pr.mp3');
-var A5pr = new Audio('music/A5pr.mp3');
-var D5pr = new Audio('music/D5pr.mp3');
+var C5pr = new Audio('../music/C5pr.mp3');  //piaty pražec
+var F5pr = new Audio('../music/F5pr.mp3');
+var A5pr = new Audio('../music/A5pr.mp3');
+var D5pr = new Audio('../music/D5pr.mp3');
 
-var Cx6pr = new Audio('music/Cx6pr.mp3');  //šiesty pražec
-var Fx6pr = new Audio('music/Fx6pr.mp3');
-var Ax6pr = new Audio('music/Ax6pr.mp3');
-var Dx6pr = new Audio('music/Dx6pr.mp3');
+var Cx6pr = new Audio('../music/Cx6pr.mp3');  //šiesty pražec
+var Fx6pr = new Audio('../music/Fx6pr.mp3');
+var Ax6pr = new Audio('../music/Ax6pr.mp3');
+var Dx6pr = new Audio('../music/Dx6pr.mp3');
 
-var D7pr = new Audio('music/D7pr.mp3');  //siedmy pražec
-var G7pr = new Audio('music/G7pr.mp3');
-var B7pr = new Audio('music/B7pr.mp3');
-var E7pr = new Audio('music/E7pr.mp3');
+var D7pr = new Audio('../music/D7pr.mp3');  //siedmy pražec
+var G7pr = new Audio('../music/G7pr.mp3');
+var B7pr = new Audio('../music/B7pr.mp3');
+var E7pr = new Audio('../music/E7pr.mp3');
 
-var Dx8pr = new Audio('music/Dx8pr.mp3');  //ôsmy pražec
-var Gx8pr = new Audio('music/Gx8pr.mp3');
-var C8pr = new Audio('music/C8pr.mp3');
-var F8pr = new Audio('music/F8pr.mp3');
+var Dx8pr = new Audio('../music/Dx8pr.mp3');  //ôsmy pražec
+var Gx8pr = new Audio('../music/Gx8pr.mp3');
+var C8pr = new Audio('../music/C8pr.mp3');
+var F8pr = new Audio('../music/F8pr.mp3');
 
-var E9pr = new Audio('music/E9pr.mp3');  //deviaty pražec
-var A9pr = new Audio('music/A9pr.mp3');
-var Cx9pr = new Audio('music/Cx9pr.mp3');
-var Fx9pr = new Audio('music/Fx9pr.mp3');
+var E9pr = new Audio('../music/E9pr.mp3');  //deviaty pražec
+var A9pr = new Audio('../music/A9pr.mp3');
+var Cx9pr = new Audio('../music/Cx9pr.mp3');
+var Fx9pr = new Audio('../music/Fx9pr.mp3');
 
 document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
 document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -276,7 +275,6 @@ function deHighlight35() {
 function funG0() {
   G.currentTime = 0;
           G.play();
-          document.getElementById("vypis").innerHTML = "G";
           document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
                   setTimeout(function() {
                       document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -286,7 +284,6 @@ function funG0() {
 function funC0() {
   C.currentTime = 0;
           C.play();
-          document.getElementById("vypis").innerHTML = "C";
           document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
                   setTimeout(function() {
                       document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -296,7 +293,6 @@ function funC0() {
 function funE0() {
   E.currentTime = 0;
           E.play();
-          document.getElementById("vypis").innerHTML = "E";
           document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
                   setTimeout(function() {
                       document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -306,7 +302,6 @@ function funE0() {
 function funA0() {
   A.currentTime = 0;
   A.play();
-  document.getElementById("vypis").innerHTML = "A";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -317,7 +312,6 @@ function funG1() {
   Gx.currentTime = 0;
   Gx.play();
   highlight0();
-  document.getElementById("vypis").innerHTML = "G#";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -331,7 +325,6 @@ function funC1() {
   Cx.currentTime = 0;
   Cx.play();
   highlight1();
-  document.getElementById("vypis").innerHTML = "C#";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -345,7 +338,6 @@ function funE1() {
   F.currentTime = 0;
   F.play();
   highlight2();
-  document.getElementById("vypis").innerHTML = "F";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -359,7 +351,6 @@ function funA1() {
   Ax.currentTime = 0;
   Ax.play();
   highlight3();
-  document.getElementById("vypis").innerHTML = "A#";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -373,7 +364,6 @@ function funG2() {
   A2pr.currentTime = 0;
   A2pr.play();
   highlight4();
-  document.getElementById("vypis").innerHTML = "A";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -387,7 +377,6 @@ function funC2() {
   D.currentTime = 0;
   D.play();
   highlight5();
-  document.getElementById("vypis").innerHTML = "D";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -401,7 +390,6 @@ function funE2() {
   Fx.currentTime = 0;
   Fx.play();
   highlight6();
-  document.getElementById("vypis").innerHTML = "F#";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -415,7 +403,6 @@ function funA2() {
   B.currentTime = 0;
   B.play();
   highlight7();
-  document.getElementById("vypis").innerHTML = "B";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -429,7 +416,6 @@ function funG3() {
   Ax3pr.currentTime = 0;
   Ax3pr.play();
   highlight8();
-  document.getElementById("vypis").innerHTML = "A#";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -443,7 +429,6 @@ function funC3() {
   Dx.currentTime = 0;
   Dx.play();
   highlight9();
-  document.getElementById("vypis").innerHTML = "D#";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -457,7 +442,6 @@ function funE3() {
   G3pr.currentTime = 0;
   G3pr.play();
   highlight10();
-  document.getElementById("vypis").innerHTML = "G";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -471,7 +455,6 @@ function funA3() {
   C3pr.currentTime = 0;
   C3pr.play();
   highlight11();
-  document.getElementById("vypis").innerHTML = "C";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -485,7 +468,6 @@ function funG4() {
   B4pr.currentTime = 0;
   B4pr.play();
   highlight12();
-  document.getElementById("vypis").innerHTML = "B";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -499,7 +481,6 @@ function funC4() {
   E4pr.currentTime = 0;
   E4pr.play();
   highlight13();
-  document.getElementById("vypis").innerHTML = "E";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -513,7 +494,6 @@ function funE4() {
   Gx4pr.currentTime = 0;
   Gx4pr.play();
   highlight14();
-  document.getElementById("vypis").innerHTML = "G#";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -527,7 +507,6 @@ function funA4() {
   Cx4pr.currentTime = 0;
   Cx4pr.play();
   highlight15();
-  document.getElementById("vypis").innerHTML = "C#";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -541,7 +520,6 @@ function funG5() {
   C5pr.currentTime = 0;
   C5pr.play();
   highlight16();
-  document.getElementById("vypis").innerHTML = "C";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -555,7 +533,6 @@ function funC5() {
   F5pr.currentTime = 0;
   F5pr.play();
   highlight17();
-  document.getElementById("vypis").innerHTML = "F";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -569,7 +546,6 @@ function funE5() {
   A5pr.currentTime = 0;
   A5pr.play();
   highlight18();
-  document.getElementById("vypis").innerHTML = "A";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -583,7 +559,6 @@ function funA5() {
   D5pr.currentTime = 0;
   D5pr.play();
   highlight19();
-  document.getElementById("vypis").innerHTML = "D";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -597,7 +572,6 @@ function funG6() {
   Cx6pr.currentTime = 0;
   Cx6pr.play();
   highlight20();
-  document.getElementById("vypis").innerHTML = "C#";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -611,7 +585,6 @@ function funC6() {
   Fx6pr.currentTime = 0;
   Fx6pr.play();
   highlight21();
-  document.getElementById("vypis").innerHTML = "F#";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -625,7 +598,6 @@ function funE6() {
   Ax6pr.currentTime = 0;
   Ax6pr.play();
   highlight22();
-  document.getElementById("vypis").innerHTML = "A#";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -639,7 +611,6 @@ function funA6() {
   Dx6pr.currentTime = 0;
   Dx6pr.play();
   highlight23();
-  document.getElementById("vypis").innerHTML = "D#";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -653,7 +624,6 @@ function funG7() {
   D7pr.currentTime = 0;
   D7pr.play();
   highlight24();
-  document.getElementById("vypis").innerHTML = "D";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -667,7 +637,6 @@ function funC7() {
   G7pr.currentTime = 0;
   G7pr.play();
   highlight25();
-  document.getElementById("vypis").innerHTML = "G";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -681,7 +650,6 @@ function funE7() {
   B7pr.currentTime = 0;
   B7pr.play();
   highlight26();
-  document.getElementById("vypis").innerHTML = "B";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -695,7 +663,6 @@ function funA7() {
   E7pr.currentTime = 0;
   E7pr.play();
   highlight27();
-  document.getElementById("vypis").innerHTML = "E";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -709,7 +676,6 @@ function funG8() {
   Dx8pr.currentTime = 0;
   Dx8pr.play();
   highlight28();
-  document.getElementById("vypis").innerHTML = "D#";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -723,7 +689,6 @@ function funC8() {
   Gx8pr.currentTime = 0;
   Gx8pr.play();
   highlight29();
-  document.getElementById("vypis").innerHTML = "G#";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -737,7 +702,6 @@ function funE8() {
   C8pr.currentTime = 0;
   C8pr.play();
   highlight30();
-  document.getElementById("vypis").innerHTML = "C";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -751,7 +715,6 @@ function funA8() {
   F8pr.currentTime = 0;
   F8pr.play();
   highlight31();
-  document.getElementById("vypis").innerHTML = "F";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -765,7 +728,6 @@ function funG9() {
   E9pr.currentTime = 0;
   E9pr.play();
   highlight32();
-  document.getElementById("vypis").innerHTML = "E";
   document.getElementById("strunaG").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaG").style.webkitAnimationPlayState = "paused";
@@ -779,7 +741,6 @@ function funC9() {
   A9pr.currentTime = 0;
   A9pr.play();
   highlight33();
-  document.getElementById("vypis").innerHTML = "A";
   document.getElementById("strunaC").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaC").style.webkitAnimationPlayState = "paused";
@@ -793,7 +754,6 @@ function funE9() {
   Cx9pr.currentTime = 0;
   Cx9pr.play();
   highlight34();
-  document.getElementById("vypis").innerHTML = "C#";
   document.getElementById("strunaE").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
@@ -807,7 +767,6 @@ function funA9() {
   Fx9pr.currentTime = 0;
   Fx9pr.play();
   highlight35();
-  document.getElementById("vypis").innerHTML = "F#";
   document.getElementById("strunaA").style.webkitAnimationPlayState = "running";
           setTimeout(function() {
               document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
@@ -816,230 +775,49 @@ function funA9() {
     deHighlight35();
   }, 1000); 
 }
+var fungovanie = true;
 
-function hranie_main(){
-    //zahrá notu podľa stlačenej klávesy
-    addEventListener('keypress', function (e) {
-        if (e.key === '+') {                          //easterEgg, ak stlačíš * zahrá pesničku
-          audio.currentTime = 0;                     
-          audio.play();
-        }
-        if (e.key === 'Enter'){                       //zastavenie prehrávania audia
-
-          document.getElementById("vypis").innerHTML = "?";
-
-          audio.pause();   
-
-          G.pause();
-          C.pause();
-          E.pause();
-          A.pause();
-
-          Gx.pause();
-          Cx.pause();
-          F.pause();
-          Ax.pause();
-
-          A2pr.pause();
-          D.pause();
-          Fx.pause();
-          B.pause();
-
-          Ax3pr.pause();
-          Dx.pause();
-          G3pr.pause();
-          C3pr.pause();
-
-          B4pr.pause();
-          E4pr.pause();
-          Gx4pr.pause();
-          Cx4pr.pause();
-
-          C5pr.pause();
-          F5pr.pause();
-          A5pr.pause();
-          D5pr.pause();
-
-          Cx6pr.pause();
-          Fx6pr.pause();
-          Ax6pr.pause();
-          Dx6pr.pause();
-
-          D7pr.pause();
-          G7pr.pause();
-          B7pr.pause();
-          E7pr.pause();
-
-          Dx8pr.pause();
-          Gx8pr.pause();
-          C8pr.pause();
-          F8pr.pause();
-
-          E9pr.pause();
-          A9pr.pause();
-          Cx9pr.pause();
-          Fx9pr.pause();
-        }
-
-        if (e.key === 'z'){
-          funG0();
-        }
-        if (e.key === 'a'){
-          funC0();
-        }
-        if (e.key === 'q'){
-          funE0();
-        }
-        if (e.key === '1'){
-          funA0();
-        }
-        if (e.key === 'x'){
-          funG1();
-        }
-        if (e.key === 's'){
-          funC1();
-        }
-        if (e.key === 'w'){
-          funE1();
-        }
-        if (e.key === '2'){
-          funA1();
-        }
-        if (e.key === 'c'){
-          funG2();
-        }
-        if (e.key === 'd'){
-          funC2();
-        }
-        if (e.key === 'e'){
-          funE2();
-        }
-        if (e.key === '3'){
-          funA2();
-        }
-        if (e.key === 'v'){
-          funG3();
-        }
-        if (e.key === 'f'){
-          funC3();
-        }
-        if (e.key === 'r'){
-          funE3();
-        }
-        if (e.key === '4'){
-          funA3();
-        }
-        if (e.key === 'b'){
-          funG4();
-        }
-        if (e.key === 'g'){
-          funC4();
-        }
-        if (e.key === 't'){
-          funE4();
-        }
-        if (e.key === '5'){
-          funA4();
-        }
-        if (e.key === 'n'){
-          funG5();
-        }
-        if (e.key === 'h'){
-          funC5();
-        }
-        if (e.key === 'y'){
-          funE5();
-        }
-        if (e.key === '6'){
-          funA5();
-        }
-        if (e.key === 'm'){
-          funG6();
-        }
-        if (e.key === 'j'){
-          funC6();
-        }
-        if (e.key === 'u'){
-          funE6();
-        }
-        if (e.key === '7'){
-          funA6();
-        }
-        if (e.key === ','){
-          funG7();
-        }
-        if (e.key === 'k'){
-          funC7(); 
-        }
-        if (e.key === 'i'){
-          funE7();
-        }
-        if (e.key === '8'){
-          funA7();
-        }
-        if (e.key === '.'){
-          funG8();  
-        }
-        if (e.key === 'l'){
-          funC8();
-        }
-        if (e.key === 'o'){
-          funE8();
-        }
-        if (e.key === '9'){
-          funA8();
-        }
-        if (e.key === '/'){
-          funG9();
-        }
-        if (e.key === ';'){
-          funC9();
-        }
-        if (e.key === 'p'){
-          funE9();
-        }
-        if (e.key === '0'){
-          funA9();
-        }
-    });
+function Stop_playing()
+{
+    fungovanie = false;
 }
 
-hranie_main();
+function Start_playing()
+{
+    fungovanie = true;
+}
 
-const form = document.forms[0];
-
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
-  const {name} = this.elements;
-  if(name.value === "G"){
-    funG0();
-  }
-
-  if(name.value === "C"){
-    funC0();
-  }
-
-  if(name.value === "E"){
-    funE0()
-  }
-
-  if(name.value === "A"){
-    funA0();
-  }
-
-  if(name.value === "G#"){
-    funG1(); 
-  }
-
-  if(name.value === "C#"){
-    funC1();
-  }
-
-  if(name.value === "F"){
-    funE1(); 
-  }
-
-  if(name.value === "A#"){
-    funA1();
-  }
-});
+function SevenNationArmy()
+    {
+        if(fungovanie)
+        {
+        funC5();
+    
+        setTimeout(function(){
+          funC5();
+        }, 670);
+        
+        setTimeout(function(){
+          funC8();
+        }, 970);
+    
+        setTimeout(function(){
+          funC5();
+        }, 1370);
+    
+        setTimeout(function(){
+          funC3();
+        }, 1670);
+    
+        setTimeout(function(){
+          funC1();
+        }, 1970);
+    
+        setTimeout(function(){
+          funC0();
+        }, 2860);
+        setTimeout(function(){
+            SevenNationArmy();
+          }, 3890);
+        }
+      }
