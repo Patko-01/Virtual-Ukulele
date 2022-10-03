@@ -8,7 +8,7 @@ body {
 #nadpis{
     color: 030e12;
     font-family: Brush Script MT;
-    font-size: 4.5em;
+    font-size: 5em;
 }
 .navbar{
     display: flex;
@@ -21,6 +21,14 @@ body {
     display: flex;
     justify-content: right;
     list-style: none;
+}
+.navbar-nav{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    background-color: black;
+
 }
 .menu{
     text-decoration: none;
@@ -396,7 +404,7 @@ h2:before{
 
 h3{
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 45%;
     font-size: 1.2em;
     color: #1A4341;
@@ -749,24 +757,6 @@ h3:before{
     border-radius: 50%;
     left: 45.3%;
     top: 71.8%;
-}
-
-.wrapper{
-    max-width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10em;
-}
-#tlacitko{
-    margin-left: 1%;
-    font-size: 0.85em;
-}
-#help{
-    position: absolute;
-    top: 40%;
-    left: 80%;
-    font-size: 1.1em;
 }
 #napis{
     position: absolute;

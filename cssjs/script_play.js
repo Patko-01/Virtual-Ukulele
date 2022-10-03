@@ -56,217 +56,217 @@ document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
 document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
 
 function highlight0() {
-  var el = document.getElementById('p0').style.background="#bccad6";
+  var el = document.getElementById('p0').style.background="black";
 }
 function deHighlight0() {
   var el = document.getElementById('p0').style.background="";
 }
 function highlight1() {
-  var el = document.getElementById('p1').style.background="#bccad6";
+  var el = document.getElementById('p1').style.background="black";
 }
 function deHighlight1() {
   var el = document.getElementById('p1').style.background="";
 }
 function highlight2() {
-  var el = document.getElementById('p2').style.background="#bccad6";
+  var el = document.getElementById('p2').style.background="black";
 }
 function deHighlight2() {
   var el = document.getElementById('p2').style.background="";
 }
 function highlight3() {
-  var el = document.getElementById('p3').style.background="#bccad6";
+  var el = document.getElementById('p3').style.background="black";
 }
 function deHighlight3() {
   var el = document.getElementById('p3').style.background="";
 }
 function highlight4() {
-  var el = document.getElementById('p4').style.background="#bccad6";
+  var el = document.getElementById('p4').style.background="black";
 }
 function deHighlight4() {
   var el = document.getElementById('p4').style.background="";
 }
 function highlight5() {
-  var el = document.getElementById('p5').style.background="#bccad6";
+  var el = document.getElementById('p5').style.background="black";
 }
 function deHighlight5() {
   var el = document.getElementById('p5').style.background="";
 }
 function highlight6() {
-  var el = document.getElementById('p6').style.background="#bccad6";
+  var el = document.getElementById('p6').style.background="black";
 }
 function deHighlight6() {
   var el = document.getElementById('p6').style.background="";
 }
 function highlight7() {
-  var el = document.getElementById('p7').style.background="#bccad6";
+  var el = document.getElementById('p7').style.background="black";
 }
 function deHighlight7() {
   var el = document.getElementById('p7').style.background="";
 }
 function highlight8() {
-  var el = document.getElementById('p8').style.background="#bccad6";
+  var el = document.getElementById('p8').style.background="black";
 }
 function deHighlight8() {
   var el = document.getElementById('p8').style.background="";
 }
 function highlight9() {
-  var el = document.getElementById('p9').style.background="#bccad6";
+  var el = document.getElementById('p9').style.background="black";
 }
 function deHighlight9() {
   var el = document.getElementById('p9').style.background="";
 }
 function highlight10() {
-  var el = document.getElementById('p10').style.background="#bccad6";
+  var el = document.getElementById('p10').style.background="black";
 }
 function deHighlight10() {
   var el = document.getElementById('p10').style.background="";
 }
 function highlight11() {
-  var el = document.getElementById('p11').style.background="#bccad6";
+  var el = document.getElementById('p11').style.background="black";
 }
 function deHighlight11() {
   var el = document.getElementById('p11').style.background="";
 }
 function highlight12() {
-  var el = document.getElementById('p12').style.background="#bccad6";
+  var el = document.getElementById('p12').style.background="black";
 }
 function deHighlight12() {
   var el = document.getElementById('p12').style.background="";
 }
 function highlight13() {
-  var el = document.getElementById('p13').style.background="#bccad6";
+  var el = document.getElementById('p13').style.background="black";
 }
 function deHighlight13() {
   var el = document.getElementById('p13').style.background="";
 }
 function highlight14() {
-  var el = document.getElementById('p14').style.background="#bccad6";
+  var el = document.getElementById('p14').style.background="black";
 }
 function deHighlight14() {
   var el = document.getElementById('p14').style.background="";
 }
 function highlight15() {
-  var el = document.getElementById('p15').style.background="#bccad6";
+  var el = document.getElementById('p15').style.background="black";
 }
 function deHighlight15() {
   var el = document.getElementById('p15').style.background="";
 }
 function highlight16() {
-  var el = document.getElementById('p16').style.background="#bccad6";
+  var el = document.getElementById('p16').style.background="black";
 }
 function deHighlight16() {
   var el = document.getElementById('p16').style.background="";
 }
 function highlight17() {
-  var el = document.getElementById('p17').style.background="#bccad6";
+  var el = document.getElementById('p17').style.background="black";
 }
 function deHighlight17() {
   var el = document.getElementById('p17').style.background="";
 }
 function highlight18() {
-  var el = document.getElementById('p18').style.background="#bccad6";
+  var el = document.getElementById('p18').style.background="black";
 }
 function deHighlight18() {
   var el = document.getElementById('p18').style.background="";
 }
 function highlight19() {
-  var el = document.getElementById('p19').style.background="#bccad6";
+  var el = document.getElementById('p19').style.background="black";
 }
 function deHighlight19() {
   var el = document.getElementById('p19').style.background="";
 }
 function highlight20() {
-  var el = document.getElementById('p20').style.background="#bccad6";
+  var el = document.getElementById('p20').style.background="black";
 }
 function deHighlight20() {
   var el = document.getElementById('p20').style.background="";
 }
 function highlight21() {
-  var el = document.getElementById('p21').style.background="#bccad6";
+  var el = document.getElementById('p21').style.background="black";
 }
 function deHighlight21() {
   var el = document.getElementById('p21').style.background="";
 }
 function highlight22() {
-  var el = document.getElementById('p22').style.background="#bccad6";
+  var el = document.getElementById('p22').style.background="black";
 }
 function deHighlight22() {
   var el = document.getElementById('p22').style.background="";
 }
 function highlight23() {
-  var el = document.getElementById('p23').style.background="#bccad6";
+  var el = document.getElementById('p23').style.background="black";
 }
 function deHighlight23() {
   var el = document.getElementById('p23').style.background="";
 }
 function highlight24() {
-  var el = document.getElementById('p24').style.background="#bccad6";
+  var el = document.getElementById('p24').style.background="black";
 }
 function deHighlight24() {
   var el = document.getElementById('p24').style.background="";
 }
 function highlight25() {
-  var el = document.getElementById('p25').style.background="#bccad6";
+  var el = document.getElementById('p25').style.background="black";
 }
 function deHighlight25() {
   var el = document.getElementById('p25').style.background="";
 }
 function highlight26() {
-  var el = document.getElementById('p26').style.background="#bccad6";
+  var el = document.getElementById('p26').style.background="black";
 }
 function deHighlight26() {
   var el = document.getElementById('p26').style.background="";
 }
 function highlight27() {
-  var el = document.getElementById('p27').style.background="#bccad6";
+  var el = document.getElementById('p27').style.background="black";
 }
 function deHighlight27() {
   var el = document.getElementById('p27').style.background="";
 }
 function highlight28() {
-  var el = document.getElementById('p28').style.background="#bccad6";
+  var el = document.getElementById('p28').style.background="black";
 }
 function deHighlight28() {
   var el = document.getElementById('p28').style.background="";
 }
 function highlight29() {
-  var el = document.getElementById('p29').style.background="#bccad6";
+  var el = document.getElementById('p29').style.background="black";
 }
 function deHighlight29() {
   var el = document.getElementById('p29').style.background="";
 }
 function highlight30() {
-  var el = document.getElementById('p30').style.background="#bccad6";
+  var el = document.getElementById('p30').style.background="black";
 }
 function deHighlight30() {
   var el = document.getElementById('p30').style.background="";
 }
 function highlight31() {
-  var el = document.getElementById('p31').style.background="#bccad6";
+  var el = document.getElementById('p31').style.background="black";
 }
 function deHighlight31() {
   var el = document.getElementById('p31').style.background="";
 }
 function highlight32() {
-  var el = document.getElementById('p32').style.background="#bccad6";
+  var el = document.getElementById('p32').style.background="black";
 }
 function deHighlight32() {
   var el = document.getElementById('p32').style.background="";
 }
 function highlight33() {
-  var el = document.getElementById('p33').style.background="#bccad6";
+  var el = document.getElementById('p33').style.background="black";
 }
 function deHighlight33() {
   var el = document.getElementById('p33').style.background="";
 }
 function highlight34() {
-  var el = document.getElementById('p34').style.background="#bccad6";
+  var el = document.getElementById('p34').style.background="black";
 }
 function deHighlight34() {
   var el = document.getElementById('p34').style.background="";
 }
 function highlight35() {
-  var el = document.getElementById('p35').style.background="#bccad6";
+  var el = document.getElementById('p35').style.background="black";
 }
 function deHighlight35() {
   var el = document.getElementById('p35').style.background="";
@@ -820,4 +820,189 @@ function SevenNationArmy()
             SevenNationArmy();
           }, 3890);
         }
+}
+
+function ComeAsYouAre()
+  {
+      if(fungovanie)
+      {
+      funC0();
+  
+      setTimeout(function(){
+        funC0();
+      }, 300);
+      
+      setTimeout(function(){
+        funC1();
+      }, 600);
+  
+      setTimeout(function(){
+        funC2();
+      }, 900);
+  
+      setTimeout(function(){
+        funE1();
+      }, 1400);
+    
+      setTimeout(function(){
+        funC2();
+      }, 1700);
+    
+      setTimeout(function(){
+        funE1();
+      }, 2000);
+
+      setTimeout(function(){
+        funC2();
+      }, 2300);
+
+      setTimeout(function(){
+        funC2();
+      }, 2600);
+
+      setTimeout(function(){
+        funC1();
+      }, 2900);
+
+      setTimeout(function(){
+        funC0();
+      }, 3200);
+
+      setTimeout(function(){
+        funE3();
+      }, 3500);
+
+      setTimeout(function(){
+        funC0();
+      }, 3800);
+
+      setTimeout(function(){
+        funC0();
+      }, 4100);
+
+      setTimeout(function(){
+          funE3();
+          ComeAsYouAre();
+        }, 4600);
       }
+    }
+    
+  function Doom()
+  {
+      if(fungovanie)
+      {
+      funE0();
+  
+      setTimeout(function(){
+        funE0();
+      }, 150);
+      
+      setTimeout(function(){
+        funA7();
+      }, 300);
+  
+      setTimeout(function(){
+        funE0();
+      }, 450);
+  
+      setTimeout(function(){
+        funE0();
+      }, 600);
+    
+      setTimeout(function(){
+        funA5();
+      }, 750);
+    
+      setTimeout(function(){
+        funE0();
+      }, 900);
+
+      setTimeout(function(){
+        funE0();
+      }, 1050);
+
+      setTimeout(function(){
+        funA3();
+      }, 1200);
+
+      setTimeout(function(){
+        funE0();
+      }, 1350);
+
+      setTimeout(function(){
+        funE0();
+      }, 1500);
+
+      setTimeout(function(){
+        funA1();
+      }, 1650);
+
+      setTimeout(function(){
+        funE0();
+      }, 1800);
+
+      setTimeout(function(){
+        funE0();
+      }, 1950);
+
+      setTimeout(function(){
+        funA2();
+      }, 2100);
+
+      setTimeout(function(){
+        funA3();
+      }, 2250);
+
+      setTimeout(function(){
+        funE0();
+      }, 2400);
+
+      setTimeout(function(){
+        funE0();
+      }, 2550);
+
+      setTimeout(function(){
+        funA7();
+      }, 2700);
+
+      setTimeout(function(){
+        funE0();
+      }, 2850);
+
+      setTimeout(function(){
+        funE0();
+      }, 3000);
+
+      setTimeout(function(){
+        funA5();
+      }, 3150);
+
+      setTimeout(function(){
+        funE0();
+      }, 3300);
+
+      setTimeout(function(){
+        funE0();
+      }, 3450);
+
+      setTimeout(function(){
+        funA3();
+      }, 3600);
+
+      setTimeout(function(){
+        funE0();
+      }, 3750);
+
+      setTimeout(function(){
+        funE0();
+      }, 3900);
+
+      setTimeout(function(){
+        funA1();
+      }, 4050);
+
+      setTimeout(function(){
+          Doom();
+        }, 4800);
+      }
+    }
