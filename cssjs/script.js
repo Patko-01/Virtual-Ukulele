@@ -820,7 +820,7 @@ function funA9() {
 function hranie_main(){
     //zahrá notu podľa stlačenej klávesy
     addEventListener('keypress', function (e) {
-        if (e.key === '+') {                          //easterEgg, ak stlačíš * zahrá pesničku
+        if (e.key === '+') {                          //easterEgg, ak stlačíš + zahrá pesničku
           audio.currentTime = 0;                     
           audio.play();
         }
@@ -1014,32 +1014,281 @@ form.addEventListener("submit", function(event) {
   if(name.value === "G"){
     funG0();
   }
+  if(name.value === "G-0"){
+    funG0();
+  }
+  if(name.value === "G-3"){
+    funG3();
+  }
+  if(name.value === "G-7"){
+    funG7();
+  }
 
   if(name.value === "C"){
     funC0();
+  }
+  if(name.value === "C-0"){
+    funC0();
+  }
+  if(name.value === "C-3"){
+    funC3();
+  }
+  if(name.value === "C-5"){
+    funC5();
+  }
+  if(name.value === "C-8"){
+    funC8();
   }
 
   if(name.value === "E"){
     funE0()
   }
+  if(name.value === "E-0"){
+    funE0()
+  }
+  if(name.value === "E-4"){
+    funE4()
+  }
+  if(name.value === "E-7"){
+    funE7()
+  }
+  if(name.value === "E-9"){
+    funE9()
+  }
+  
 
   if(name.value === "A"){
     funA0();
+  }
+  if(name.value === "A-0"){
+    funA0();
+  }
+  if(name.value === "A-2"){
+    funA2();
+  }
+  if(name.value === "A-5"){
+    funA5();
+  }
+  if(name.value === "A-9"){
+    funA9();
   }
 
   if(name.value === "G#"){
     funG1(); 
   }
+  if(name.value === "G#-1"){
+    funG1(); 
+  }
+  if(name.value === "G#-4"){
+    funG4(); 
+  }
+  if(name.value === "G#-8"){
+    funG8(); 
+  }
 
   if(name.value === "C#"){
     funC1();
+  }
+  if(name.value === "C#-1"){
+    funC1();
+  }
+  if(name.value === "C#-4"){
+    funC4();
+  }
+  if(name.value === "C#-6"){
+    funC6();
+  }
+  if(name.value === "C#-9"){
+    funC9();
   }
 
   if(name.value === "F"){
     funE1(); 
   }
+  if(name.value === "F-1"){
+    funE1(); 
+  }
+  if(name.value === "F-5"){
+    funE5(); 
+  }
+  if(name.value === "F-8"){
+    funE8(); 
+  }
 
   if(name.value === "A#"){
     funA1();
+  }
+  if(name.value === "A#-1"){
+    funA1();
+  }
+  if(name.value === "A#-3"){
+    funA3();
+  }
+  if(name.value === "A#-6"){
+    funA6();
+  }
+
+  if(name.value === "A"){
+    funG2(); 
+  }
+
+  if(name.value === "D"){
+    funC2();
+  }
+  if(name.value === "D-2"){
+    funC2();
+  }
+  if(name.value === "D-5"){
+    funC5();
+  }
+  if(name.value === "D-7"){
+    funC7();
+  }
+
+  if(name.value === "F#"){
+    funE2(); 
+  }
+  if(name.value === "F#-2"){
+    funE2(); 
+  }
+  if(name.value === "F#-6"){
+    funE6(); 
+  }
+  if(name.value === "F#-9"){
+    funE9(); 
+  }
+
+  if(name.value === "B"){
+    funA2();
+  }
+  if(name.value === "B-2"){
+    funA2();
+  }
+  if(name.value === "B-4"){
+    funA4();
+  }
+  if(name.value === "B-7"){
+    funA7();
+  }
+
+  if(name.value === "A#"){
+    funG3(); 
+  }
+
+  if(name.value === "D#"){
+    funC3();
+  }
+  if(name.value === "D#-3"){
+    funC3();
+  }
+  if(name.value === "D#-6"){
+    funC6();
+  }
+  if(name.value === "D#-8"){
+    funC8();
+  }
+
+  if(name.value === "G"){
+    funE3(); 
+  }
+
+  if(name.value === "C"){
+    funA3();
+  }
+
+  if(name.value === "B"){
+    funG4(); 
+  }
+
+  if(name.value === "E"){
+    funC4();
+  }
+
+  if(name.value === "G#"){
+    funE4(); 
+  }
+
+  if(name.value === "C#"){
+    funA4();
+  }
+
+  if(name.value === "C"){
+    funG5();
+  }
+
+  if(name.value === "F"){
+    funC5();
+  }
+
+  if(name.value === "A"){
+    funE5(); 
+  }
+
+  if(name.value === "D"){
+    funA5();
+  }
+
+  if(name.value === "C#"){
+    funG6();
+  }
+
+  if(name.value === "F#"){
+    funC6();
+  }
+
+  if(name.value === "A#"){
+    funE6(); 
+  }
+
+  if(name.value === "D#"){
+    funA6();
+  }
+
+  if(name.value === "D"){
+    funG7();
+  }
+
+  if(name.value === "G"){
+    funC7();
+  }
+
+  if(name.value === "B"){
+    funE7(); 
+  }
+
+  if(name.value === "E"){
+    funA7();
+  }
+
+  if(name.value === "D#"){
+    funG8();
+  }
+
+  if(name.value === "G#"){
+    funC8();
+  }
+
+  if(name.value === "C"){
+    funE8(); 
+  }
+
+  if(name.value === "F"){
+    funA8();
+  }
+
+  if(name.value === "E"){
+    funG9();
+  }
+
+  if(name.value === "A"){
+    funC9();
+  }
+
+  if(name.value === "C#"){
+    funE9(); 
+  }
+
+  if(name.value === "F#"){
+    funA9();
   }
 });
