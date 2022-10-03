@@ -1018,10 +1018,10 @@ form.addEventListener("submit", function(event) {
     funG0();
   }
   if(name.value === "G-3"){
-    funG3();
+    funE3();
   }
   if(name.value === "G-7"){
-    funG7();
+    funC7();
   }
 
   if(name.value === "C"){
@@ -1031,13 +1031,13 @@ form.addEventListener("submit", function(event) {
     funC0();
   }
   if(name.value === "C-3"){
-    funC3();
+    funA3();
   }
   if(name.value === "C-5"){
-    funC5();
+    funG5();
   }
   if(name.value === "C-8"){
-    funC8();
+    funE8();
   }
 
   if(name.value === "E"){
@@ -1047,13 +1047,13 @@ form.addEventListener("submit", function(event) {
     funE0()
   }
   if(name.value === "E-4"){
-    funE4()
+    funC4()
   }
   if(name.value === "E-7"){
-    funE7()
+    funA7()
   }
   if(name.value === "E-9"){
-    funE9()
+    funG9()
   }
   
 
@@ -1064,13 +1064,13 @@ form.addEventListener("submit", function(event) {
     funA0();
   }
   if(name.value === "A-2"){
-    funA2();
+    funG2();
   }
   if(name.value === "A-5"){
-    funA5();
+    funE5();
   }
   if(name.value === "A-9"){
-    funA9();
+    funC9();
   }
 
   if(name.value === "G#"){
@@ -1080,10 +1080,10 @@ form.addEventListener("submit", function(event) {
     funG1(); 
   }
   if(name.value === "G#-4"){
-    funG4(); 
+    funE4(); 
   }
   if(name.value === "G#-8"){
-    funG8(); 
+    funC8(); 
   }
 
   if(name.value === "C#"){
@@ -1093,13 +1093,13 @@ form.addEventListener("submit", function(event) {
     funC1();
   }
   if(name.value === "C#-4"){
-    funC4();
+    funA4();
   }
   if(name.value === "C#-6"){
-    funC6();
+    funG6();
   }
   if(name.value === "C#-9"){
-    funC9();
+    funE9();
   }
 
   if(name.value === "F"){
@@ -1109,10 +1109,10 @@ form.addEventListener("submit", function(event) {
     funE1(); 
   }
   if(name.value === "F-5"){
-    funE5(); 
+    funC5(); 
   }
   if(name.value === "F-8"){
-    funE8(); 
+    funA8(); 
   }
 
   if(name.value === "A#"){
@@ -1122,10 +1122,10 @@ form.addEventListener("submit", function(event) {
     funA1();
   }
   if(name.value === "A#-3"){
-    funA3();
+    funG3();
   }
   if(name.value === "A#-6"){
-    funA6();
+    funE6();
   }
 
   if(name.value === "A"){
@@ -1139,10 +1139,10 @@ form.addEventListener("submit", function(event) {
     funC2();
   }
   if(name.value === "D-5"){
-    funC5();
+    funA5();
   }
   if(name.value === "D-7"){
-    funC7();
+    funG7();
   }
 
   if(name.value === "F#"){
@@ -1152,10 +1152,10 @@ form.addEventListener("submit", function(event) {
     funE2(); 
   }
   if(name.value === "F#-6"){
-    funE6(); 
+    funC6(); 
   }
   if(name.value === "F#-9"){
-    funE9(); 
+    funA9(); 
   }
 
   if(name.value === "B"){
@@ -1165,10 +1165,10 @@ form.addEventListener("submit", function(event) {
     funA2();
   }
   if(name.value === "B-4"){
-    funA4();
+    funG4();
   }
   if(name.value === "B-7"){
-    funA7();
+    funE7();
   }
 
   if(name.value === "A#"){
@@ -1182,10 +1182,10 @@ form.addEventListener("submit", function(event) {
     funC3();
   }
   if(name.value === "D#-6"){
-    funC6();
+    funA6();
   }
   if(name.value === "D#-8"){
-    funC8();
+    funG8();
   }
 
   if(name.value === "G"){
