@@ -775,22 +775,9 @@ function funA9() {
     deHighlight35();
   }, 1000); 
 }
-var fungovanie = true;
-
-function Stop_playing()
-{
-    fungovanie = false;
-}
-
-function Start_playing()
-{
-    fungovanie = true;
-}
 
 function SevenNationArmy()
     {
-        if(fungovanie)
-        {
         funC5();
     
         setTimeout(function(){
@@ -816,16 +803,10 @@ function SevenNationArmy()
         setTimeout(function(){
           funC0();
         }, 2860);
-        setTimeout(function(){
-            SevenNationArmy();
-          }, 3890);
-        }
 }
 
 function ComeAsYouAre()
   {
-      if(fungovanie)
-      {
       funC0();
   
       setTimeout(function(){
@@ -879,18 +860,10 @@ function ComeAsYouAre()
       setTimeout(function(){
         funC0();
       }, 4100);
-
-      setTimeout(function(){
-          funE3();
-          ComeAsYouAre();
-        }, 4600);
-      }
-    }
+}
     
   function Doom()
   {
-      if(fungovanie)
-      {
       funE0();
   
       setTimeout(function(){
@@ -1000,9 +973,43 @@ function ComeAsYouAre()
       setTimeout(function(){
         funA1();
       }, 4050);
+}
 
-      setTimeout(function(){
-          Doom();
-        }, 4800);
+const form = document.forms[0];
+
+form.addEventListener("submit", function(event) {
+  
+  event.preventDefault();
+
+  const {note_name} = this.elements;
+
+  const clear_text = note_name.value.replaceAll(',', '');
+
+  for(let i = 0; i < clear_text.length; i++)
+  {
+      if(clear_text[i] == "G"){
+        setTimeout(function(){
+          funG0();
+          i++;
+        }, i*1000);  
       }
-    }
+      if(clear_text[i] == "C"){
+        setTimeout(function(){
+          funC0();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E"){
+        setTimeout(function(){
+          funE0();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A"){
+        setTimeout(function(){
+          funA0();
+          i++;
+        }, i*1000); 
+      }
+  }
+});

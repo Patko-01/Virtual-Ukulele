@@ -23,7 +23,7 @@
         </ul>
     </div>
     </div>
-    <div id="prvaCast"></div>
+            <div id="prvaCast"></div>
             <div id="koniecstredu"></div>
             <div id="okrajstredu"></div>
             <div id="stred"></div>
@@ -106,25 +106,27 @@
             <div id="p33"></div>
             <div id="p34"></div>
             <div id="p35"></div>
-
+    
+    <form style="justify-content: right;margin-right: 5%;" class="form-inline">
+        <input class="form-control mr-sm-2" id="note_name" placeholder="Notes">
+        <button class="btn btn-outline-success" id="tlacitko" type="submit">Submit</button>
+    </form>
+    
     <div class="navbar">
         <div style="justify-content: right;margin-right: 5%;" class="container-fluid">
-            <ul class="navbar-nav">
-            <h4 style="text-align: center;color: white;">Press to play</h4>
+            <ul style="text-align: center;" class="navbar-nav">
+            <h4 style="text-align: center;color: black;font-weight: bold;">Press to play</h4>
             <div style="margin-top: 2%;margin-bottom: 8%;" class="d-grid gap-1">
-                <h5 style="color: yellow;font-size: 0.8em;">The White Stripes - Seven Nation Army</h4>
-                <button class="btn btn-outline-dark active my-sm-0" onclick="Start_playing();SevenNationArmy();">Start loop</button>
-                <button class="btn btn-outline-danger active my-sm-0" onclick="Stop_playing()">Stop</button>
+                <h5 style="color: black;font-size: 0.8em;">The White Stripes - Seven Nation Army</h4>
+                <button class="btn btn-outline-dark my-sm-0" onclick="SevenNationArmy();">Play</button>
             </div>
             <div style="margin-top: 2%;margin-bottom: 8%;" class="d-grid gap-2">
-                <h5 style="color: yellow;font-size: 0.8em;">Nirvana - Come As You Are</h4>
-                    <button class="btn btn-outline-dark active my-sm-0" onclick="Start_playing();ComeAsYouAre();">Start loop</button>
-                    <button class="btn btn-outline-danger active my-sm-0" onclick="Stop_playing()">Stop</button>
+                <h5 style="color: black;font-size: 0.8em;">Nirvana - Come As You Are</h4>
+                    <button class="btn btn-outline-dark my-sm-0" onclick="ComeAsYouAre();">Play</button>
             </div>
             <div style="margin-top: 2%;" class="d-grid gap-2">
-                <h5 style="color: yellow;font-size: 0.8em;">Doom Theme</h4>
-                    <button class="btn btn-outline-dark active my-sm-0" onclick="Start_playing();Doom();">Start loop</button>
-                    <button class="btn btn-outline-danger active my-sm-0" onclick="Stop_playing()">Stop</button>
+                <h5 style="color: black;font-size: 0.8em;">Doom Theme</h4>
+                    <button class="btn btn-outline-dark my-sm-0" onclick="Doom();">Play</button>
             </div>
             </ul>
         </div>

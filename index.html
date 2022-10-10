@@ -20,16 +20,70 @@
                 <li><a class="menu" href="html/onas.html">About us</a></li>
                 <li><a class="menu" href="html/tutorials.html">Tutorials</a></li>
                 <li><a class="menu" href="html/play.html">Playlist</a></li>
-        
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" id="name" type="search" placeholder="Note" aria-label="Search">
-                    <button class="btn btn-outline-success my-sm-0" id="tlacitko" type="submit">Submit</button>
-                    <!-- Button trigger modal -->
-                    <button style="margin-left: 5px;" class="btn btn-outline-dark" id="tlacitko" type="submit"  data-toggle="modal" data-target="#exampleModal">Help</button> 
-                  </form>
             </ul>
         </div>
         </div>
+        <form style="justify-content: right;margin-right: 5%;" class="form-inline">
+            <input class="form-control mr-sm-2" id="name" placeholder="Note" list="notes">
+                <datalist id="notes">
+                    <option value="G"></option>
+                    <option value="G-0"></option>
+                    <option value="G-3"></option>
+                    <option value="G-7"></option>
+                    <option value="C"></option>
+                    <option value="C-0"></option>
+                    <option value="C-3"></option>
+                    <option value="C-5"></option>
+                    <option value="C-8"></option>
+                    <option value="E"></option>
+                    <option value="E-0"></option>
+                    <option value="E-4"></option>
+                    <option value="E-7"></option>
+                    <option value="E-9"></option>
+                    <option value="A"></option>
+                    <option value="A-0"></option>
+                    <option value="A-2"></option>
+                    <option value="A-5"></option>
+                    <option value="A-9"></option>
+                    <option value="G#"></option>
+                    <option value="G#-1"></option>
+                    <option value="G#-4"></option>
+                    <option value="G#-8"></option>
+                    <option value="C#"></option>
+                    <option value="C#-1"></option>
+                    <option value="C#-4"></option>
+                    <option value="C#-6"></option>
+                    <option value="C#-9"></option>
+                    <option value="F"></option>
+                    <option value="F-1"></option>
+                    <option value="F-5"></option>
+                    <option value="F-8"></option>
+                    <option value="A#"></option>
+                    <option value="A#-1"></option>
+                    <option value="A#-3"></option>
+                    <option value="A#-6"></option>
+                    <option value="A"></option>
+                    <option value="D"></option>
+                    <option value="D-2"></option>
+                    <option value="D-5"></option>
+                    <option value="D-7"></option>
+                    <option value="F#"></option>
+                    <option value="F#-2"></option>
+                    <option value="F#-6"></option>
+                    <option value="F#-9"></option>
+                    <option value="B"></option>
+                    <option value="B-2"></option>
+                    <option value="B-4"></option>
+                    <option value="B-7"></option>
+                    <option value="D#"></option>
+                    <option value="D#-3"></option>
+                    <option value="D#-6"></option>
+                    <option value="D#-8"></option>
+                </datalist>
+            <button class="btn btn-outline-success" id="tlacitko" type="submit">Submit</button>
+            <!-- Button trigger modal -->
+            <button style="margin-left: 5px;" class="btn btn-outline-dark" id="tlacitko" type="submit"  data-toggle="modal" data-target="#exampleModal">Help</button> 
+          </form>
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
