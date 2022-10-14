@@ -983,31 +983,259 @@ form.addEventListener("submit", function(event) {
 
   const {note_name} = this.elements;
 
-  const clear_text = note_name.value.replaceAll(',', '');
+  const tem_text = note_name.value.replaceAll(' ', '');
+  const clear_text = tem_text.split(',');
+
+  console.log(clear_text[1]);
 
   for(let i = 0; i < clear_text.length; i++)
   {
-      if(clear_text[i] == "G"){
+      if(clear_text[i] == "G0"){
         setTimeout(function(){
           funG0();
           i++;
         }, i*1000);  
       }
-      if(clear_text[i] == "C"){
+      if(clear_text[i] == "C0"){
         setTimeout(function(){
           funC0();
           i++;
         }, i*1000); 
       }
-      if(clear_text[i] == "E"){
+      if(clear_text[i] == "E0"){
         setTimeout(function(){
           funE0();
           i++;
         }, i*1000); 
       }
-      if(clear_text[i] == "A"){
+      if(clear_text[i] == "A0"){
         setTimeout(function(){
           funA0();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G1"){
+        setTimeout(function(){
+          funG1();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C1"){
+        setTimeout(function(){
+          funC1();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E1"){
+        setTimeout(function(){
+          funE1();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A1"){
+        setTimeout(function(){
+          funA1();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G2"){
+        setTimeout(function(){
+          funG2();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C2"){
+        setTimeout(function(){
+          funC2();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E2"){
+        setTimeout(function(){
+          funE2();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A2"){
+        setTimeout(function(){
+          funA2();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G3"){
+        setTimeout(function(){
+          funG3();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C3"){
+        setTimeout(function(){
+          funC3();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E3"){
+        setTimeout(function(){
+          funE3();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A3"){
+        setTimeout(function(){
+          funA3();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G4"){
+        setTimeout(function(){
+          funG4();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C4"){
+        setTimeout(function(){
+          funC4();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E4"){
+        setTimeout(function(){
+          funE4();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A4"){
+        setTimeout(function(){
+          funA4();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G5"){
+        setTimeout(function(){
+          funG5();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C5"){
+        setTimeout(function(){
+          funC5();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E5"){
+        setTimeout(function(){
+          funE5();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A5"){
+        setTimeout(function(){
+          funA5();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G6"){
+        setTimeout(function(){
+          funG6();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C6"){
+        setTimeout(function(){
+          funC6();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E6"){
+        setTimeout(function(){
+          funE6();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A6"){
+        setTimeout(function(){
+          funA6();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G7"){
+        setTimeout(function(){
+          funG7();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C7"){
+        setTimeout(function(){
+          funC7();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E7"){
+        setTimeout(function(){
+          funE7();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A7"){
+        setTimeout(function(){
+          funA7();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G8"){
+        setTimeout(function(){
+          funG8();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C8"){
+        setTimeout(function(){
+          funC8();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E8"){
+        setTimeout(function(){
+          funE8();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A8"){
+        setTimeout(function(){
+          funA8();
+          i++;
+        }, i*1000); 
+      }
+
+      if(clear_text[i] == "G9"){
+        setTimeout(function(){
+          funG9();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "C9"){
+        setTimeout(function(){
+          funC9();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "E9"){
+        setTimeout(function(){
+          funE9();
+          i++;
+        }, i*1000); 
+      }
+      if(clear_text[i] == "A9"){
+        setTimeout(function(){
+          funA9();
           i++;
         }, i*1000); 
       }
