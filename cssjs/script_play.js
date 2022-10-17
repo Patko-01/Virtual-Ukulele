@@ -1003,7 +1003,6 @@ form.addEventListener("submit", function(event) {
   {
     if(i!=0 && i<2) ar_time_output=ar_time[i];
       if(i>1) ar_time_output=ar_time_output+ar_time[i];
-      console.log(ar_time_output);
       if(ar_notes[i] == "G0"){
         setTimeout(function(){
           funG0();
