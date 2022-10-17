@@ -43,6 +43,24 @@
                 </div>
                 </div>
             </div>
+            <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Help - timing</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        Every song needs the right timing between notes to sound perfect. To do that on my website, just type in numbers that represent time (in milliseconds) between notes. The first note is always going to be played in 0 milliseconds, so you don't need to type in the timing for the first note. As an example, if you type in Notes: "G0, C0", Breaks: "1000", it means G0 is going to be played right away and the C0 is going to be played in 1000 milliseconds.<br><br> 
+                        Example:<br><br>
+                        <span style="font-size: 2em;">Notes: </span></span><span style="font-size: 2em; color: blue;">C5,C5,C8,C5,C3,C1,C0</span><br>
+                        <span style="font-size: 2em;">Breaks: </span></span><span style="font-size: 2em; color: blue;">670,300,400,300,300,860</span>
+                    </div>
+                </div>
+                </div>
+            </div>
             <div id="prvaCast"></div>
             <div id="koniecstredu"></div>
             <div id="okrajstredu"></div>
@@ -129,9 +147,12 @@
     
     <form style="justify-content: right;margin-right: 5%;" class="form-inline">
         <input class="form-control mr-sm-2" id="note_name" placeholder="Notes">
-        <button class="btn btn-outline-success" id="tlacitko" type="submit">Submit</button>
         <!-- Button trigger modal -->
-        <button style="margin-left: 5px;" class="btn btn-outline-dark" id="tlacitko" type="submit"  data-toggle="modal" data-target="#exampleModal">Help</button> 
+        <button style="margin-right: 5px;" type="button" class="btn btn-outline-dark" id="button" data-toggle="modal" data-target="#exampleModal">Help</button> 
+        <input class="form-control mr-sm-2" id="time" placeholder="Breaks">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-dark" id="button" data-toggle="modal" data-target="#exampleModal1">Help</button> 
+        <button style="margin-left: 5px;" class="btn btn-outline-success" id="button" type="submit">Submit</button>
     </form>
     
     <div class="navbar">
