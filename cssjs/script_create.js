@@ -1064,16 +1064,16 @@ form.addEventListener("submit", function(event) {
   let name = note_name.value;
   let time_output = time.value;
 
-    song=song.substring(0,50);
-    if(song.length>=47)
+    song=song.substring(0,40);
+    if(song.length>=37)
     song+="...";
 
-    name=name.substring(0,50);
-    if(name.length>=47)
+    name=name.substring(0,40);
+    if(name.length>=37)
     name+="...";
 
-    time_output=time_output.substring(0,50);
-    if(time_output.length>=47)
+    time_output=time_output.substring(0,40);
+    if(time_output.length>=37)
     time_output+="...";
 
   document.getElementById("output_songs_name").innerHTML = song;
