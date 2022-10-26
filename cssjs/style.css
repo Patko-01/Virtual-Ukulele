@@ -767,3 +767,12 @@ h3:before{
 #vypis{
     color: #ff0080;
 }
+#output_songs_div{
+    border-radius: 2%;
+    float: right;
+    width: 50%;
+    max-width: 50%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: #fcf7e4;
+}
