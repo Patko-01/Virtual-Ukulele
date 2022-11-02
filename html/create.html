@@ -9,6 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="../cssjs/FileSaver.js"></script>
     <link rel="stylesheet" href="../cssjs/style.css">
     
 </head>
@@ -156,12 +157,14 @@
         <button style="margin-left: 5px;" class="btn btn-outline-success" id="button" type="submit">Submit</button>
     </form>
     <div id="output_songs_div">
+        <button style="float: right;margin-top: 2%;margin-right: 2%;" class="btn btn-outline-primary btn-sm active" id="save-btn">Download</button>
         <div style="margin-left: 1%;">
             <h1 style="font-size: 2em;">Your song:</h1>
             <h4 style="margin-top: 4%;font-size: 1.5em;">Name: <span id="output_songs_name" style="font-size: 1em;font-weight: 400;"></span> <button style="float: right;margin-right: 2%;" class="btn btn-outline-primary btn-sm" onclick="myFunction()" id="myInput" type="submit">Copy</button></h4>
             <h4 style="margin-top: 2%;font-size: 1.5em;">Notes: <span id="output_songs_notes" style="font-size: 1em;font-weight: 400;"></span><button style="float: right;margin-right: 2%;" class="btn btn-outline-primary btn-sm" onclick="myFunction1()" id="myInput" type="submit">Copy</button></h4>
             <h4 style="margin-top: 2%;font-size: 1.5em;">Breaks: <span id="output_songs_time" style="font-size: 1em;font-weight: 400;"></span><button style="float: right;margin-right: 2%;" class="btn btn-outline-primary btn-sm" onclick="myFunction2()" id="myInput" type="submit">Copy</button></h4>
         </div>
+        <input style="margin-top: 2%;width: 100%;background-color: #fcf7e4;" id="formFile" type="file"  accept=".txt">
     </div>
     <script src="../cssjs/script_create.js"></script>
 </body>

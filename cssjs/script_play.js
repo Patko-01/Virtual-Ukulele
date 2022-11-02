@@ -1,3 +1,5 @@
+var audio = new Audio('../music/easterEgg.mp3');       
+
 var G = new Audio('../music/G.mp3');  //nulty pražec
 var C = new Audio('../music/C.mp3');
 var E = new Audio('../music/E.mp3');

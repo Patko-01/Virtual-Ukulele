@@ -774,6 +774,18 @@ function funA9() {
   }, 1000); 
 }
 
+let file_input_parts = "";
+
+const fileSelector = document.getElementById('formFile');
+
+  fileSelector.addEventListener('change', function() {
+    var fr=new FileReader();
+    fr.onload=function(){
+      let file_input = fr.result;
+      file_input_parts = file_input.split('\n');
+    }
+    fr.readAsText(this.files[0]);
+  });
 
 const form = document.forms[0];
 
@@ -788,6 +800,13 @@ form.addEventListener("submit", function(event) {
   const {note_name} = this.elements;
   const {time} = this.elements;
   const {song_name} = this.elements;
+
+  if(file_input_parts[0]!=undefined && file_input_parts[1]!=undefined &&file_input_parts[2]!=undefined)
+  {
+      note_name.value=file_input_parts[1];
+      time.value=file_input_parts[2];
+      song_name.value=file_input_parts[0];
+  }
 
   if(time.value[0]!="0")
     time.value = "0," + time.value;
@@ -1062,6 +1081,10 @@ form.addEventListener("submit", function(event) {
   let name = note_name.value;
   let time_output = time.value;
 
+  output_clipboard_song=song;
+  output_clipboard_notes=name;
+  output_clipboard_breaks=time_output;
+
     song=song.substring(0,40);
     if(song.length>=37)
     song+="...";
@@ -1077,10 +1100,6 @@ form.addEventListener("submit", function(event) {
   document.getElementById("output_songs_name").innerHTML = song;
   document.getElementById("output_songs_notes").innerHTML = name;
   document.getElementById("output_songs_time").innerHTML = time_output;
-  
-  output_clipboard_song=song;
-  output_clipboard_notes=name;
-  output_clipboard_breaks=time_output;
 });
 
 function myFunction(){
@@ -1092,3 +1111,11 @@ function myFunction1(){
 function myFunction2(){
   navigator.clipboard.writeText(output_clipboard_breaks);
 }
+
+$("#save-btn").click(function() 
+{ 
+  let output_file_name = output_clipboard_song+".txt";
+
+  var blob = new Blob([output_clipboard_song,"\n",output_clipboard_notes,"\n",output_clipboard_breaks], {type: "text/plain;charset=utf-8"});
+  saveAs(blob, output_file_name);
+});
