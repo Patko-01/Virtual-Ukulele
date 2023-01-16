@@ -57,220 +57,220 @@ document.getElementById("strunaE").style.webkitAnimationPlayState = "paused";
 document.getElementById("strunaA").style.webkitAnimationPlayState = "paused";
 
 function highlight0() {
-  var el = document.getElementById('p0').style.background="black";
+  document.getElementById('p0').style.background="black";
 }
 function deHighlight0() {
-  var el = document.getElementById('p0').style.background="";
+  document.getElementById('p0').style.background="";
 }
 function highlight1() {
-  var el = document.getElementById('p1').style.background="black";
+  document.getElementById('p1').style.background="black";
 }
 function deHighlight1() {
-  var el = document.getElementById('p1').style.background="";
+  document.getElementById('p1').style.background="";
 }
 function highlight2() {
-  var el = document.getElementById('p2').style.background="black";
+  document.getElementById('p2').style.background="black";
 }
 function deHighlight2() {
-  var el = document.getElementById('p2').style.background="";
+  document.getElementById('p2').style.background="";
 }
 function highlight3() {
-  var el = document.getElementById('p3').style.background="black";
+  document.getElementById('p3').style.background="black";
 }
 function deHighlight3() {
-  var el = document.getElementById('p3').style.background="";
+  document.getElementById('p3').style.background="";
 }
 function highlight4() {
-  var el = document.getElementById('p4').style.background="black";
+  document.getElementById('p4').style.background="black";
 }
 function deHighlight4() {
-  var el = document.getElementById('p4').style.background="";
+  document.getElementById('p4').style.background="";
 }
 function highlight5() {
-  var el = document.getElementById('p5').style.background="black";
+  document.getElementById('p5').style.background="black";
 }
 function deHighlight5() {
-  var el = document.getElementById('p5').style.background="";
+  document.getElementById('p5').style.background="";
 }
 function highlight6() {
-  var el = document.getElementById('p6').style.background="black";
+  document.getElementById('p6').style.background="black";
 }
 function deHighlight6() {
-  var el = document.getElementById('p6').style.background="";
+  document.getElementById('p6').style.background="";
 }
 function highlight7() {
-  var el = document.getElementById('p7').style.background="black";
+  document.getElementById('p7').style.background="black";
 }
 function deHighlight7() {
-  var el = document.getElementById('p7').style.background="";
+  document.getElementById('p7').style.background="";
 }
 function highlight8() {
-  var el = document.getElementById('p8').style.background="black";
+  document.getElementById('p8').style.background="black";
 }
 function deHighlight8() {
-  var el = document.getElementById('p8').style.background="";
+  document.getElementById('p8').style.background="";
 }
 function highlight9() {
-  var el = document.getElementById('p9').style.background="black";
+  document.getElementById('p9').style.background="black";
 }
 function deHighlight9() {
-  var el = document.getElementById('p9').style.background="";
+  document.getElementById('p9').style.background="";
 }
 function highlight10() {
-  var el = document.getElementById('p10').style.background="black";
+  document.getElementById('p10').style.background="black";
 }
 function deHighlight10() {
-  var el = document.getElementById('p10').style.background="";
+  document.getElementById('p10').style.background="";
 }
 function highlight11() {
-  var el = document.getElementById('p11').style.background="black";
+  document.getElementById('p11').style.background="black";
 }
 function deHighlight11() {
-  var el = document.getElementById('p11').style.background="";
+  document.getElementById('p11').style.background="";
 }
 function highlight12() {
-  var el = document.getElementById('p12').style.background="black";
+  document.getElementById('p12').style.background="black";
 }
 function deHighlight12() {
-  var el = document.getElementById('p12').style.background="";
+  document.getElementById('p12').style.background="";
 }
 function highlight13() {
-  var el = document.getElementById('p13').style.background="black";
+  document.getElementById('p13').style.background="black";
 }
 function deHighlight13() {
-  var el = document.getElementById('p13').style.background="";
+  document.getElementById('p13').style.background="";
 }
 function highlight14() {
-  var el = document.getElementById('p14').style.background="black";
+  document.getElementById('p14').style.background="black";
 }
 function deHighlight14() {
-  var el = document.getElementById('p14').style.background="";
+  document.getElementById('p14').style.background="";
 }
 function highlight15() {
-  var el = document.getElementById('p15').style.background="black";
+  document.getElementById('p15').style.background="black";
 }
 function deHighlight15() {
-  var el = document.getElementById('p15').style.background="";
+  document.getElementById('p15').style.background="";
 }
 function highlight16() {
-  var el = document.getElementById('p16').style.background="black";
+  document.getElementById('p16').style.background="black";
 }
 function deHighlight16() {
-  var el = document.getElementById('p16').style.background="";
+  document.getElementById('p16').style.background="";
 }
 function highlight17() {
-  var el = document.getElementById('p17').style.background="black";
+  document.getElementById('p17').style.background="black";
 }
 function deHighlight17() {
-  var el = document.getElementById('p17').style.background="";
+  document.getElementById('p17').style.background="";
 }
 function highlight18() {
-  var el = document.getElementById('p18').style.background="black";
+  document.getElementById('p18').style.background="black";
 }
 function deHighlight18() {
-  var el = document.getElementById('p18').style.background="";
+  document.getElementById('p18').style.background="";
 }
 function highlight19() {
-  var el = document.getElementById('p19').style.background="black";
+  document.getElementById('p19').style.background="black";
 }
 function deHighlight19() {
-  var el = document.getElementById('p19').style.background="";
+  document.getElementById('p19').style.background="";
 }
 function highlight20() {
-  var el = document.getElementById('p20').style.background="black";
+  document.getElementById('p20').style.background="black";
 }
 function deHighlight20() {
-  var el = document.getElementById('p20').style.background="";
+  document.getElementById('p20').style.background="";
 }
 function highlight21() {
-  var el = document.getElementById('p21').style.background="black";
+  document.getElementById('p21').style.background="black";
 }
 function deHighlight21() {
-  var el = document.getElementById('p21').style.background="";
+  document.getElementById('p21').style.background="";
 }
 function highlight22() {
-  var el = document.getElementById('p22').style.background="black";
+  document.getElementById('p22').style.background="black";
 }
 function deHighlight22() {
-  var el = document.getElementById('p22').style.background="";
+  document.getElementById('p22').style.background="";
 }
 function highlight23() {
-  var el = document.getElementById('p23').style.background="black";
+  document.getElementById('p23').style.background="black";
 }
 function deHighlight23() {
-  var el = document.getElementById('p23').style.background="";
+  document.getElementById('p23').style.background="";
 }
 function highlight24() {
-  var el = document.getElementById('p24').style.background="black";
+  document.getElementById('p24').style.background="black";
 }
 function deHighlight24() {
-  var el = document.getElementById('p24').style.background="";
+  document.getElementById('p24').style.background="";
 }
 function highlight25() {
-  var el = document.getElementById('p25').style.background="black";
+  document.getElementById('p25').style.background="black";
 }
 function deHighlight25() {
-  var el = document.getElementById('p25').style.background="";
+  document.getElementById('p25').style.background="";
 }
 function highlight26() {
-  var el = document.getElementById('p26').style.background="black";
+  document.getElementById('p26').style.background="black";
 }
 function deHighlight26() {
-  var el = document.getElementById('p26').style.background="";
+  document.getElementById('p26').style.background="";
 }
 function highlight27() {
-  var el = document.getElementById('p27').style.background="black";
+  document.getElementById('p27').style.background="black";
 }
 function deHighlight27() {
-  var el = document.getElementById('p27').style.background="";
+  document.getElementById('p27').style.background="";
 }
 function highlight28() {
-  var el = document.getElementById('p28').style.background="black";
+  document.getElementById('p28').style.background="black";
 }
 function deHighlight28() {
-  var el = document.getElementById('p28').style.background="";
+  document.getElementById('p28').style.background="";
 }
 function highlight29() {
-  var el = document.getElementById('p29').style.background="black";
+  document.getElementById('p29').style.background="black";
 }
 function deHighlight29() {
-  var el = document.getElementById('p29').style.background="";
+  document.getElementById('p29').style.background="";
 }
 function highlight30() {
-  var el = document.getElementById('p30').style.background="black";
+  document.getElementById('p30').style.background="black";
 }
 function deHighlight30() {
-  var el = document.getElementById('p30').style.background="";
+  document.getElementById('p30').style.background="";
 }
 function highlight31() {
-  var el = document.getElementById('p31').style.background="black";
+  document.getElementById('p31').style.background="black";
 }
 function deHighlight31() {
-  var el = document.getElementById('p31').style.background="";
+  document.getElementById('p31').style.background="";
 }
 function highlight32() {
-  var el = document.getElementById('p32').style.background="black";
+  document.getElementById('p32').style.background="black";
 }
 function deHighlight32() {
-  var el = document.getElementById('p32').style.background="";
+  document.getElementById('p32').style.background="";
 }
 function highlight33() {
-  var el = document.getElementById('p33').style.background="black";
+  document.getElementById('p33').style.background="black";
 }
 function deHighlight33() {
-  var el = document.getElementById('p33').style.background="";
+  document.getElementById('p33').style.background="";
 }
 function highlight34() {
-  var el = document.getElementById('p34').style.background="black";
+  document.getElementById('p34').style.background="black";
 }
 function deHighlight34() {
-  var el = document.getElementById('p34').style.background="";
+  document.getElementById('p34').style.background="";
 }
 function highlight35() {
-  var el = document.getElementById('p35').style.background="black";
+  document.getElementById('p35').style.background="black";
 }
 function deHighlight35() {
-  var el = document.getElementById('p35').style.background="";
+  document.getElementById('p35').style.background="";
 }
 
 function funG0() {
