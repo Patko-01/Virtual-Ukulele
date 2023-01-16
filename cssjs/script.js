@@ -1,5 +1,5 @@
 //deklarujeme audio premenné
-var audio = new Audio('music/easterEgg.mp3');       //ctrl+shift+L
+var audio = new Audio('music/easterEgg.mp3');      //ctrl+shift+L
 
 var G = new Audio('music/G.mp3');  //nulty pražec
 var C = new Audio('music/C.mp3');
