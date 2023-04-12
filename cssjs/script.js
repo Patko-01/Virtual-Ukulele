@@ -1,5 +1,5 @@
 //deklarujeme audio premenné
-var audio = new Audio('music/easterEgg.mp3');      //ctrl+shift+L
+var audio = new Audio('music/easterEgg.mp3');
 
 var G = new Audio('music/G.mp3');  //nulty pražec
 var C = new Audio('music/C.mp3');
@@ -817,7 +817,6 @@ function funA9() {
   }, 1000); 
 }
 
-function hranie_main(){
     //zahrá notu podľa stlačenej klávesy
     addEventListener('keypress', function (e) {
         if (e.key === '+') {                          //easterEgg, ak stlačíš + zahrá pesničku
@@ -1002,9 +1001,6 @@ function hranie_main(){
           funA9();
         }
     });
-}
-
-hranie_main();
 
 const form = document.forms[0];
 
