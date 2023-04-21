@@ -147,11 +147,11 @@
             <div id="p35"></div>
     
     <form style="justify-content: right;padding-right: 5%;" class="form-inline">
-        <input class="form-control mr-sm-2" id="song_name" placeholder="Name of the song">
-        <input class="form-control mr-sm-2" id="note_name" placeholder="Notes">
+        <input class="form-control mr-sm-2" id="song_name" placeholder="Name of the song" required>
+        <input class="form-control mr-sm-2" id="note_name" placeholder="Notes" required>
         <!-- Button trigger modal -->
         <button style="margin-right: 5px;" type="button" class="btn btn-outline-dark" id="button" data-toggle="modal" data-target="#exampleModal">Help</button> 
-        <input class="form-control mr-sm-2" id="time" placeholder="Breaks">
+        <input class="form-control mr-sm-2" id="time" placeholder="Breaks" required>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-outline-dark" id="button" data-toggle="modal" data-target="#exampleModal1">Help</button> 
         <button style="margin-left: 5px;" class="btn btn-outline-success" id="button" type="submit">Submit</button>
@@ -159,7 +159,7 @@
     <div id="output_songs_div">
         <button style="float: right;margin-top: 2%;margin-right: 2%;" class="btn btn-outline-primary btn-sm active" id="save-btn">Download</button>
         <div style="margin-left: 1%;">
-            <h1 style="font-size: 2em;">Your song:</h1>
+            <h1 style="font-size: 2em;">Your song</h1>
             <h4 style="margin-top: 4%;font-size: 1.5em;">Name: <span id="output_songs_name" style="font-size: 1em;font-weight: 400;"></span> <button style="float: right;margin-right: 2%;" class="btn btn-outline-primary btn-sm" onclick="myFunction()" id="myInput" type="submit">Copy</button></h4>
             <h4 style="margin-top: 2%;font-size: 1.5em;">Notes: <span id="output_songs_notes" style="font-size: 1em;font-weight: 400;"></span><button style="float: right;margin-right: 2%;" class="btn btn-outline-primary btn-sm" onclick="myFunction1()" id="myInput" type="submit">Copy</button></h4>
             <h4 style="margin-top: 2%;font-size: 1.5em;">Breaks: <span id="output_songs_time" style="font-size: 1em;font-weight: 400;"></span><button style="float: right;margin-right: 2%;" class="btn btn-outline-primary btn-sm" onclick="myFunction2()" id="myInput" type="submit">Copy</button></h4>

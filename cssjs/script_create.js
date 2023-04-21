@@ -1100,6 +1100,8 @@ form.addEventListener("submit", function(event) {
   document.getElementById("output_songs_name").innerHTML = song;
   document.getElementById("output_songs_notes").innerHTML = name;
   document.getElementById("output_songs_time").innerHTML = time_output;
+
+  file_input_parts = "";
 });
 
 function myFunction(){
