@@ -60,217 +60,217 @@ function highlight0() {
   document.getElementById('p0').style.background="black";
 }
 function deHighlight0() {
-  document.getElementById('p0').style.background="";
+  document.getElementById('p0').style.background="transparent";
 }
 function highlight1() {
   document.getElementById('p1').style.background="black";
 }
 function deHighlight1() {
-  document.getElementById('p1').style.background="";
+  document.getElementById('p1').style.background="transparent";
 }
 function highlight2() {
   document.getElementById('p2').style.background="black";
 }
 function deHighlight2() {
-  document.getElementById('p2').style.background="";
+  document.getElementById('p2').style.background="transparent";
 }
 function highlight3() {
   document.getElementById('p3').style.background="black";
 }
 function deHighlight3() {
-  document.getElementById('p3').style.background="";
+  document.getElementById('p3').style.background="transparent";
 }
 function highlight4() {
   document.getElementById('p4').style.background="black";
 }
 function deHighlight4() {
-  document.getElementById('p4').style.background="";
+  document.getElementById('p4').style.background="transparent";
 }
 function highlight5() {
   document.getElementById('p5').style.background="black";
 }
 function deHighlight5() {
-  document.getElementById('p5').style.background="";
+  document.getElementById('p5').style.background="transparent";
 }
 function highlight6() {
   document.getElementById('p6').style.background="black";
 }
 function deHighlight6() {
-  document.getElementById('p6').style.background="";
+  document.getElementById('p6').style.background="transparent";
 }
 function highlight7() {
   document.getElementById('p7').style.background="black";
 }
 function deHighlight7() {
-  document.getElementById('p7').style.background="";
+  document.getElementById('p7').style.background="transparent";
 }
 function highlight8() {
   document.getElementById('p8').style.background="black";
 }
 function deHighlight8() {
-  document.getElementById('p8').style.background="";
+  document.getElementById('p8').style.background="transparent";
 }
 function highlight9() {
   document.getElementById('p9').style.background="black";
 }
 function deHighlight9() {
-  document.getElementById('p9').style.background="";
+  document.getElementById('p9').style.background="transparent";
 }
 function highlight10() {
   document.getElementById('p10').style.background="black";
 }
 function deHighlight10() {
-  document.getElementById('p10').style.background="";
+  document.getElementById('p10').style.background="transparent";
 }
 function highlight11() {
   document.getElementById('p11').style.background="black";
 }
 function deHighlight11() {
-  document.getElementById('p11').style.background="";
+  document.getElementById('p11').style.background="transparent";
 }
 function highlight12() {
   document.getElementById('p12').style.background="black";
 }
 function deHighlight12() {
-  document.getElementById('p12').style.background="";
+  document.getElementById('p12').style.background="transparent";
 }
 function highlight13() {
   document.getElementById('p13').style.background="black";
 }
 function deHighlight13() {
-  document.getElementById('p13').style.background="";
+  document.getElementById('p13').style.background="transparent";
 }
 function highlight14() {
   document.getElementById('p14').style.background="black";
 }
 function deHighlight14() {
-  document.getElementById('p14').style.background="";
+  document.getElementById('p14').style.background="transparent";
 }
 function highlight15() {
   document.getElementById('p15').style.background="black";
 }
 function deHighlight15() {
-  document.getElementById('p15').style.background="";
+  document.getElementById('p15').style.background="transparent";
 }
 function highlight16() {
   document.getElementById('p16').style.background="black";
 }
 function deHighlight16() {
-  document.getElementById('p16').style.background="";
+  document.getElementById('p16').style.background="transparent";
 }
 function highlight17() {
   document.getElementById('p17').style.background="black";
 }
 function deHighlight17() {
-  document.getElementById('p17').style.background="";
+  document.getElementById('p17').style.background="transparent";
 }
 function highlight18() {
   document.getElementById('p18').style.background="black";
 }
 function deHighlight18() {
-  document.getElementById('p18').style.background="";
+  document.getElementById('p18').style.background="transparent";
 }
 function highlight19() {
   document.getElementById('p19').style.background="black";
 }
 function deHighlight19() {
-  document.getElementById('p19').style.background="";
+  document.getElementById('p19').style.background="transparent";
 }
 function highlight20() {
   document.getElementById('p20').style.background="black";
 }
 function deHighlight20() {
-  document.getElementById('p20').style.background="";
+  document.getElementById('p20').style.background="transparent";
 }
 function highlight21() {
   document.getElementById('p21').style.background="black";
 }
 function deHighlight21() {
-  document.getElementById('p21').style.background="";
+  document.getElementById('p21').style.background="transparent";
 }
 function highlight22() {
   document.getElementById('p22').style.background="black";
 }
 function deHighlight22() {
-  document.getElementById('p22').style.background="";
+  document.getElementById('p22').style.background="transparent";
 }
 function highlight23() {
   document.getElementById('p23').style.background="black";
 }
 function deHighlight23() {
-  document.getElementById('p23').style.background="";
+  document.getElementById('p23').style.background="transparent";
 }
 function highlight24() {
   document.getElementById('p24').style.background="black";
 }
 function deHighlight24() {
-  document.getElementById('p24').style.background="";
+  document.getElementById('p24').style.background="transparent";
 }
 function highlight25() {
   document.getElementById('p25').style.background="black";
 }
 function deHighlight25() {
-  document.getElementById('p25').style.background="";
+  document.getElementById('p25').style.background="transparent";
 }
 function highlight26() {
   document.getElementById('p26').style.background="black";
 }
 function deHighlight26() {
-  document.getElementById('p26').style.background="";
+  document.getElementById('p26').style.background="transparent";
 }
 function highlight27() {
   document.getElementById('p27').style.background="black";
 }
 function deHighlight27() {
-  document.getElementById('p27').style.background="";
+  document.getElementById('p27').style.background="transparent";
 }
 function highlight28() {
   document.getElementById('p28').style.background="black";
 }
 function deHighlight28() {
-  document.getElementById('p28').style.background="";
+  document.getElementById('p28').style.background="transparent";
 }
 function highlight29() {
   document.getElementById('p29').style.background="black";
 }
 function deHighlight29() {
-  document.getElementById('p29').style.background="";
+  document.getElementById('p29').style.background="transparent";
 }
 function highlight30() {
   document.getElementById('p30').style.background="black";
 }
 function deHighlight30() {
-  document.getElementById('p30').style.background="";
+  document.getElementById('p30').style.background="transparent";
 }
 function highlight31() {
   document.getElementById('p31').style.background="black";
 }
 function deHighlight31() {
-  document.getElementById('p31').style.background="";
+  document.getElementById('p31').style.background="transparent";
 }
 function highlight32() {
   document.getElementById('p32').style.background="black";
 }
 function deHighlight32() {
-  document.getElementById('p32').style.background="";
+  document.getElementById('p32').style.background="transparent";
 }
 function highlight33() {
   document.getElementById('p33').style.background="black";
 }
 function deHighlight33() {
-  document.getElementById('p33').style.background="";
+  document.getElementById('p33').style.background="transparent";
 }
 function highlight34() {
   document.getElementById('p34').style.background="black";
 }
 function deHighlight34() {
-  document.getElementById('p34').style.background="";
+  document.getElementById('p34').style.background="transparent";
 }
 function highlight35() {
   document.getElementById('p35').style.background="black";
 }
 function deHighlight35() {
-  document.getElementById('p35').style.background="";
+  document.getElementById('p35').style.background="transparent";
 }
 
 function funG0() {
@@ -817,13 +817,145 @@ function funA9() {
   }, 1000); 
 }
 
+let currBtn
+
+function play(e,bol)
+{
+  if(bol)
+    currBtn = e.key
+  else 
+    currBtn = e
+  
+
+  if (currBtn === 'z'){
+    funG0();
+  }
+  else if (currBtn === 'a'){
+    funC0();
+  }
+  else if (currBtn === 'q'){
+    funE0();
+  }
+  else if (currBtn === '1'){
+    funA0();
+  }
+  else if (currBtn === 'x'){
+    funG1();
+  }
+  else if (currBtn === 's'){
+    funC1();
+  }
+  else if (currBtn === 'w'){
+    funE1();
+  }
+  else if (currBtn === '2'){
+    funA1();
+  }
+  else if (currBtn === 'c'){
+    funG2();
+  }
+  else if (currBtn === 'd'){
+    funC2();
+  }
+  else if (currBtn === 'e'){
+    funE2();
+  }
+  else if (currBtn === '3'){
+    funA2();
+  }
+  else if (currBtn === 'v'){
+    funG3();
+  }
+  else if (currBtn === 'f'){
+    funC3();
+  }
+  else if (currBtn === 'r'){
+    funE3();
+  }
+  else if (currBtn === '4'){
+    funA3();
+  }
+  else if (currBtn === 'b'){
+    funG4();
+  }
+  else if (currBtn === 'g'){
+    funC4();
+  }
+  else if (currBtn === 't'){
+    funE4();
+  }
+  else if (currBtn === '5'){
+    funA4();
+  }
+  else if (currBtn === 'n'){
+    funG5();
+  }
+  else if (currBtn === 'h'){
+    funC5();
+  }
+  else if (currBtn === 'y'){
+    funE5();
+  }
+  else if (currBtn === '6'){
+    funA5();
+  }
+  else if (currBtn === 'm'){
+    funG6();
+  }
+  else if (currBtn === 'j'){
+    funC6();
+  }
+  else if (currBtn === 'u'){
+    funE6();
+  }
+  else if (currBtn === '7'){
+    funA6();
+  }
+  else if (currBtn === ','){
+    funG7();
+  }
+  else if (currBtn === 'k'){
+    funC7(); 
+  }
+  else if (currBtn === 'i'){
+    funE7();
+  }
+  else if (currBtn === '8'){
+    funA7();
+  }
+  else if (currBtn === '.'){
+    funG8();  
+  }
+  else if (currBtn === 'l'){
+    funC8();
+  }
+  else if (currBtn === 'o'){
+    funE8();
+  }
+  else if (currBtn === '9'){
+    funA8();
+  }
+  else if (currBtn === '/'){
+    funG9();
+  }
+  else if (currBtn === ';'){
+    funC9();
+  }
+  else if (currBtn === 'p'){
+    funE9();
+  }
+  else if (currBtn === '0'){
+    funA9();
+  }
+}
+
     //zahrá notu podľa stlačenej klávesy
     addEventListener('keypress', function (e) {
         if (e.key === '+') {                          //easterEgg, ak stlačíš + zahrá pesničku
           audio.currentTime = 0;                     
           audio.play();
         }
-        if (e.key === 'Enter'){                       //zastavenie prehrávania audia
+        else if (e.key === 'Enter'){                  //zastavenie prehrávania audia
 
           document.getElementById("vypis").innerHTML = "?";
 
@@ -880,126 +1012,7 @@ function funA9() {
           Fx9pr.pause();
         }
 
-        if (e.key === 'z'){
-          funG0();
-        }
-        if (e.key === 'a'){
-          funC0();
-        }
-        if (e.key === 'q'){
-          funE0();
-        }
-        if (e.key === '1'){
-          funA0();
-        }
-        if (e.key === 'x'){
-          funG1();
-        }
-        if (e.key === 's'){
-          funC1();
-        }
-        if (e.key === 'w'){
-          funE1();
-        }
-        if (e.key === '2'){
-          funA1();
-        }
-        if (e.key === 'c'){
-          funG2();
-        }
-        if (e.key === 'd'){
-          funC2();
-        }
-        if (e.key === 'e'){
-          funE2();
-        }
-        if (e.key === '3'){
-          funA2();
-        }
-        if (e.key === 'v'){
-          funG3();
-        }
-        if (e.key === 'f'){
-          funC3();
-        }
-        if (e.key === 'r'){
-          funE3();
-        }
-        if (e.key === '4'){
-          funA3();
-        }
-        if (e.key === 'b'){
-          funG4();
-        }
-        if (e.key === 'g'){
-          funC4();
-        }
-        if (e.key === 't'){
-          funE4();
-        }
-        if (e.key === '5'){
-          funA4();
-        }
-        if (e.key === 'n'){
-          funG5();
-        }
-        if (e.key === 'h'){
-          funC5();
-        }
-        if (e.key === 'y'){
-          funE5();
-        }
-        if (e.key === '6'){
-          funA5();
-        }
-        if (e.key === 'm'){
-          funG6();
-        }
-        if (e.key === 'j'){
-          funC6();
-        }
-        if (e.key === 'u'){
-          funE6();
-        }
-        if (e.key === '7'){
-          funA6();
-        }
-        if (e.key === ','){
-          funG7();
-        }
-        if (e.key === 'k'){
-          funC7(); 
-        }
-        if (e.key === 'i'){
-          funE7();
-        }
-        if (e.key === '8'){
-          funA7();
-        }
-        if (e.key === '.'){
-          funG8();  
-        }
-        if (e.key === 'l'){
-          funC8();
-        }
-        if (e.key === 'o'){
-          funE8();
-        }
-        if (e.key === '9'){
-          funA8();
-        }
-        if (e.key === '/'){
-          funG9();
-        }
-        if (e.key === ';'){
-          funC9();
-        }
-        if (e.key === 'p'){
-          funE9();
-        }
-        if (e.key === '0'){
-          funA9();
-        }
+        play(e,true)
     });
 
 const form = document.forms[0];
@@ -1010,281 +1023,281 @@ form.addEventListener("submit", function(event) {
   if(name.value === "G"){
     funG0();
   }
-  if(name.value === "G-0"){
+  else if(name.value === "G-0"){
     funG0();
   }
-  if(name.value === "G-3"){
+  else if(name.value === "G-3"){
     funE3();
   }
-  if(name.value === "G-7"){
+  else if(name.value === "G-7"){
     funC7();
   }
 
-  if(name.value === "C"){
+  else if(name.value === "C"){
     funC0();
   }
-  if(name.value === "C-0"){
+  else if(name.value === "C-0"){
     funC0();
   }
-  if(name.value === "C-3"){
+  else if(name.value === "C-3"){
     funA3();
   }
-  if(name.value === "C-5"){
+  else if(name.value === "C-5"){
     funG5();
   }
-  if(name.value === "C-8"){
+  else if(name.value === "C-8"){
     funE8();
   }
 
-  if(name.value === "E"){
+  else if(name.value === "E"){
     funE0()
   }
-  if(name.value === "E-0"){
+  else if(name.value === "E-0"){
     funE0()
   }
-  if(name.value === "E-4"){
+  else if(name.value === "E-4"){
     funC4()
   }
-  if(name.value === "E-7"){
+  else if(name.value === "E-7"){
     funA7()
   }
-  if(name.value === "E-9"){
+  else if(name.value === "E-9"){
     funG9()
   }
   
 
-  if(name.value === "A"){
+  else if(name.value === "A"){
     funA0();
   }
-  if(name.value === "A-0"){
+  else if(name.value === "A-0"){
     funA0();
   }
-  if(name.value === "A-2"){
+  else if(name.value === "A-2"){
     funG2();
   }
-  if(name.value === "A-5"){
+  else if(name.value === "A-5"){
     funE5();
   }
-  if(name.value === "A-9"){
+  else if(name.value === "A-9"){
     funC9();
   }
 
-  if(name.value === "G#"){
+  else if(name.value === "G#"){
     funG1(); 
   }
-  if(name.value === "G#-1"){
+  else if(name.value === "G#-1"){
     funG1(); 
   }
-  if(name.value === "G#-4"){
+  else if(name.value === "G#-4"){
     funE4(); 
   }
-  if(name.value === "G#-8"){
+  else if(name.value === "G#-8"){
     funC8(); 
   }
 
-  if(name.value === "C#"){
+  else if(name.value === "C#"){
     funC1();
   }
-  if(name.value === "C#-1"){
+  else if(name.value === "C#-1"){
     funC1();
   }
-  if(name.value === "C#-4"){
+  else if(name.value === "C#-4"){
     funA4();
   }
-  if(name.value === "C#-6"){
+  else if(name.value === "C#-6"){
     funG6();
   }
-  if(name.value === "C#-9"){
+  else if(name.value === "C#-9"){
     funE9();
   }
 
-  if(name.value === "F"){
+  else if(name.value === "F"){
     funE1(); 
   }
-  if(name.value === "F-1"){
+  else if(name.value === "F-1"){
     funE1(); 
   }
-  if(name.value === "F-5"){
+  else if(name.value === "F-5"){
     funC5(); 
   }
-  if(name.value === "F-8"){
+  else if(name.value === "F-8"){
     funA8(); 
   }
 
-  if(name.value === "A#"){
+  else if(name.value === "A#"){
     funA1();
   }
-  if(name.value === "A#-1"){
+  else if(name.value === "A#-1"){
     funA1();
   }
-  if(name.value === "A#-3"){
+  else if(name.value === "A#-3"){
     funG3();
   }
-  if(name.value === "A#-6"){
+  else if(name.value === "A#-6"){
     funE6();
   }
 
-  if(name.value === "A"){
+  else if(name.value === "A"){
     funG2(); 
   }
 
-  if(name.value === "D"){
+  else if(name.value === "D"){
     funC2();
   }
-  if(name.value === "D-2"){
+  else if(name.value === "D-2"){
     funC2();
   }
-  if(name.value === "D-5"){
+  else if(name.value === "D-5"){
     funA5();
   }
-  if(name.value === "D-7"){
+  else if(name.value === "D-7"){
     funG7();
   }
 
-  if(name.value === "F#"){
+  else if(name.value === "F#"){
     funE2(); 
   }
-  if(name.value === "F#-2"){
+  else if(name.value === "F#-2"){
     funE2(); 
   }
-  if(name.value === "F#-6"){
+  else if(name.value === "F#-6"){
     funC6(); 
   }
-  if(name.value === "F#-9"){
+  else if(name.value === "F#-9"){
     funA9(); 
   }
 
-  if(name.value === "B"){
+  else if(name.value === "B"){
     funA2();
   }
-  if(name.value === "B-2"){
+  else if(name.value === "B-2"){
     funA2();
   }
-  if(name.value === "B-4"){
+  else if(name.value === "B-4"){
     funG4();
   }
-  if(name.value === "B-7"){
+  else if(name.value === "B-7"){
     funE7();
   }
 
-  if(name.value === "A#"){
+  else if(name.value === "A#"){
     funG3(); 
   }
 
-  if(name.value === "D#"){
+  else if(name.value === "D#"){
     funC3();
   }
-  if(name.value === "D#-3"){
+  else if(name.value === "D#-3"){
     funC3();
   }
-  if(name.value === "D#-6"){
+  else if(name.value === "D#-6"){
     funA6();
   }
-  if(name.value === "D#-8"){
+  else if(name.value === "D#-8"){
     funG8();
   }
 
-  if(name.value === "G"){
+  else if(name.value === "G"){
     funE3(); 
   }
 
-  if(name.value === "C"){
+  else if(name.value === "C"){
     funA3();
   }
 
-  if(name.value === "B"){
+  else if(name.value === "B"){
     funG4(); 
   }
 
-  if(name.value === "E"){
+  else if(name.value === "E"){
     funC4();
   }
 
-  if(name.value === "G#"){
+  else if(name.value === "G#"){
     funE4(); 
   }
 
-  if(name.value === "C#"){
+  else if(name.value === "C#"){
     funA4();
   }
 
-  if(name.value === "C"){
+  else if(name.value === "C"){
     funG5();
   }
 
-  if(name.value === "F"){
+  else if(name.value === "F"){
     funC5();
   }
 
-  if(name.value === "A"){
+  else if(name.value === "A"){
     funE5(); 
   }
 
-  if(name.value === "D"){
+  else if(name.value === "D"){
     funA5();
   }
 
-  if(name.value === "C#"){
+  else if(name.value === "C#"){
     funG6();
   }
 
-  if(name.value === "F#"){
+  else if(name.value === "F#"){
     funC6();
   }
 
-  if(name.value === "A#"){
+  else if(name.value === "A#"){
     funE6(); 
   }
 
-  if(name.value === "D#"){
+  else if(name.value === "D#"){
     funA6();
   }
 
-  if(name.value === "D"){
+  else if(name.value === "D"){
     funG7();
   }
 
-  if(name.value === "G"){
+  else if(name.value === "G"){
     funC7();
   }
 
-  if(name.value === "B"){
+  else if(name.value === "B"){
     funE7(); 
   }
 
-  if(name.value === "E"){
+  else if(name.value === "E"){
     funA7();
   }
 
-  if(name.value === "D#"){
+  else if(name.value === "D#"){
     funG8();
   }
 
-  if(name.value === "G#"){
+  else if(name.value === "G#"){
     funC8();
   }
 
-  if(name.value === "C"){
+  else if(name.value === "C"){
     funE8(); 
   }
 
-  if(name.value === "F"){
+  else if(name.value === "F"){
     funA8();
   }
 
-  if(name.value === "E"){
+  else if(name.value === "E"){
     funG9();
   }
 
-  if(name.value === "A"){
+  else if(name.value === "A"){
     funC9();
   }
 
-  if(name.value === "C#"){
+  else if(name.value === "C#"){
     funE9(); 
   }
 
-  if(name.value === "F#"){
+  else if(name.value === "F#"){
     funA9();
   }
 });

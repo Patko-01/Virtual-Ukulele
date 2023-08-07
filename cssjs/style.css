@@ -462,9 +462,42 @@ h3:before{
     }
 }
 /* #da1c5c #f8951f #27aee4*/
+#p00{
+    position: absolute;
+    width:15%;
+    height: 3%;  
+    border-radius: 5%;
+    left: 27%;
+    top: 63.6%;
+}
+#p01{
+    position: absolute;
+    width:15%;
+    height: 3%;  
+    border-radius: 5%;
+    left: 27%;
+    top: 66.2%;
+}
+#p02{
+    position: absolute;
+    width:15%;
+    height: 3%;  
+    border-radius: 5%;
+    left: 27%;
+    top: 69.2%;
+}
+#p03{
+    position: absolute;
+    width:15%;
+    height: 3%;  
+    border-radius: 5%;
+    left: 27%;
+    top: 71.8%;
+}
+
 #p0{
     position: absolute;
-    width:1.5%;
+    width:15%;
     height: 3%;  
     border-radius: 50%;
     left: 74%;
